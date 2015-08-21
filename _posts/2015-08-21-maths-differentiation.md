@@ -13,14 +13,14 @@ The differentiated form of a function is represented as either \`f'(x)\` or \`dy
 
 ## Calculating it
 
-### Simple equations
+### For simple equations
 When \`f(x) = ax^n\`, \`f'(x) = nax^(n-1)\`.
 
-### Trigonometric equations
-+ \`cos'(x) = cos(x)\`
-+ When \`cos'(x) = -sin(x)\`
-+ When \`tan'(x) = sec^2(x)\`
-+ When \`cot'(x) = -csc^2(x)\`
-+ When \`sec'(x) = sec(x) * tan(x)\`
-+ When \`csc'(x) = -csc(x) * cot(x)\`
-+ When \`csc'(x) = -csc(x) * cot(x)\`
+### For trigonometric functions
++ \`sin'(x) = cos(x)\`
++ \`cos'(x) = -sin(x)\`
++ \`tan'(x) = sec^2(x)\`
++ \`cot'(x) = -csc^2(x)\`
++ \`sec'(x) = sec(x) * tan(x)\`
++ \`csc'(x) = -csc(x) * cot(x)\`
++ \`arcsin'(x) = 1/sqrt(1-x^2)\`
