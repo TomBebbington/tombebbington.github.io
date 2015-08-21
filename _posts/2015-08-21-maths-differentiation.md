@@ -24,3 +24,5 @@ When \`f(x) = ax^n\`, \`f'(x) = nax^(n-1)\`.
 + \`sec'(x) = sec(x) * tan(x)\`
 + \`csc'(x) = -csc(x) * cot(x)\`
 + \`arcsin'(x) = 1/sqrt(1-x^2)\`
++ \`arccos'(x) = -1/sqrt(1-x^2)\`
++ \`arctan'(x) = 1/(x^2 + 1)\`
