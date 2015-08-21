@@ -9,4 +9,4 @@ layout: post
 Differentiation is the process of finding the gradient at a certain point in a graph.
 
 ### How to represent it
-\\(f'(x)\\) and \\(dy/dx)
+\\(f'\(x\)\\) and \\(dy/dx)
