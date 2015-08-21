@@ -12,4 +12,4 @@ The differentiated form of a function is represented as either \`f'(x)\` or \`dy
 
 ## Calculating it
 
-When \`f(x) = x^y\`, \`f'(x) = yx^(y-1)\`
+When \`f(x) = ax^n\`, \`f'(x) = nax^(n-1)\`
