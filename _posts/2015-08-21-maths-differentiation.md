@@ -9,7 +9,7 @@ Differentiation is the process of finding the gradient / rate of change at a cer
 
 ## Representing it
 
-The differentiated form of a function is represented as either \`f'(x)\`, \`\triangley/\trianglex\` or \`dy/dx\`.
+The differentiated form of a function is represented as either \`f'(x)\`, \`Δy/Δx\` or \`dy/dx\`.
 
 ## Calculating it
 
