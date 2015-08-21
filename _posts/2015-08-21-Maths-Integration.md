@@ -11,7 +11,7 @@ The integrated form of a function is represented as \`\int f(x)\`.
 ## Calculating it
 
 ### For simple equations
-When \`f'(x) = ax^n\`, \`f(x) = (ax^(n+1))/(n+1)\`.
+When \`f'(x) = ax^n\`, \`f(x) = (ax^(n+1))/(n+1) + C\`.
 
 ### For trigonometric functions
 + \`sin'(x) = cos(x)\`
