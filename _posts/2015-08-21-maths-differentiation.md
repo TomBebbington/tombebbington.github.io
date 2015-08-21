@@ -15,4 +15,4 @@ The differentiated form of a function is represented as either \`f'(x)\` or \`dy
 + When \`f(x) = ax^n\`, \`f'(x) = nax^(n-1)\`.
 + When \`f(x) = sin(x)\`, \`f'(x) = cos(x)\`
 + When \`f(x) = cos(x)\`, \`f'(x) = -sin(x)\`
-+ When \`f(x) = tan(x)\`, \`f'(x) = sec(x)\`
++ When \`f(x) = tan(x)\`, \`f'(x) = sec^2(x)\`
