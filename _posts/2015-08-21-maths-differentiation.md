@@ -3,8 +3,6 @@ published: true
 layout: post
 ---
 
-
-
 Differentiation is the process of finding the gradient / rate of change at a certain point in a graph.
 
 ## Representing it
