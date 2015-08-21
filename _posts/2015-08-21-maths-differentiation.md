@@ -17,3 +17,5 @@ The differentiated form of a function is represented as either \`f'(x)\` or \`dy
 + When \`f(x) = sin(x)\`, \`f'(x) = cos(x)\`
 + When \`f(x) = cos(x)\`, \`f'(x) = -sin(x)\`
 + When \`f(x) = tan(x)\`, \`f'(x) = sec^2(x)\`
++ When \`f(x) = cot(x)\`, \`f'(x) = -csc^2(x)\`
++ When \`f(x) = sec(x)\`, \`f'(x) = sec(x) * tan(x)\`
