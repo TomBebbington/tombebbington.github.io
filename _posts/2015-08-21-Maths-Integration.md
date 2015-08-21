@@ -9,7 +9,7 @@ Integration is the process of finding the equation of a graph from the equation 
 
 ## Representing it
 
-The integrated form of a function is represented as \`\int f(x)\`.
+The integrated form of a function is represented as \`\int f(x)\`, or \`f(x)\` when \`f'(x)\` is given.
 
 ## Calculating it
 
