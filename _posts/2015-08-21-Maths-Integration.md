@@ -1,5 +1,6 @@
 ---
 published: false
+layout: post
 ---
 
 Integration is the process of finding the equation of a graph from the equation of its gradient. It is the exact inverse of differentiation.
