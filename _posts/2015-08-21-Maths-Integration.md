@@ -18,6 +18,7 @@ When \`f'(x) = ax^n\`, \`f(x) = (ax^(n+1))/(n+1) + C\`.
 \'C\' represents the integration constant, which is an unknown number you must calculate using the values you are given.
 
 ### For trigonometric functions
++ \'\int cos(x) = sin(x)\'
 + \`sin'(x) = cos(x)\`
 + \`cos'(x) = -sin(x)\`
 + \`tan'(x) = sec^2(x)\`
