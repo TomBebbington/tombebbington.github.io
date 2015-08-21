@@ -28,6 +28,9 @@
 
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
+            {% for category in site.categories %}
+               <a name="{{ category | first }}">{{ category | first   }}</a>
+            {% endfor %}
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
