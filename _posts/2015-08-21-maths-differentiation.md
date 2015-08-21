@@ -8,6 +8,4 @@ layout: post
 Differentiation is the process of finding the gradient at a certain point in a graph.
 
 ### How to represent it
-$$a^2 + b^2 = c^2$$
-
-`a != b`
+`a^2 != 0`
