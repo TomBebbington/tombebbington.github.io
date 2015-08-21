@@ -15,6 +15,7 @@ The integrated form of a function is represented as \`\int f(x)\`, or \`f(x)\` w
 
 ### For simple equations
 When \`f'(x) = ax^n\`, \`f(x) = (ax^(n+1))/(n+1) + C\`.
+\'C\' represents the integration constant, which is an unknown number you must calculate using the values you are given.
 
 ### For trigonometric functions
 + \`sin'(x) = cos(x)\`
