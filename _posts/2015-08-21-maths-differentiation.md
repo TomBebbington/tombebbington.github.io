@@ -3,8 +3,6 @@ published: true
 layout: post
 ---
 
-
-
 ## Maths - Differentiation
 Differentiation is the process of finding the gradient at a certain point in a graph.
 
