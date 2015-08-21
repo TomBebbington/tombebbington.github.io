@@ -9,5 +9,4 @@ Differentiation is the process of finding the gradient at a certain point in a g
 
 ### How to represent it
 
-The differentiated form of a function is represented as either \`f'(x)\` or \`dy/dx\`
-\`a^2 != 0\`
+The differentiated form of a function is represented as either \`f'(x)\` or \`dy/dx\`.
