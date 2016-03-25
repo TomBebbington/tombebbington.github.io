@@ -24,9 +24,35 @@ A **data type** is what variables' types are classed as:
   * An **array** is a sequence of the same data type.
 
 ## User-definable data types
-  * An **object** is an instance of a class that can have its methods called.
-  * A **class** is a description of an object and some static variables and methods.
-  * An **enum** is an enumeration of values i.e. can be one of a fixed number of values, that all have different meanings.
+
+### Enums
+**Enums** are an enumeration of values that can be one of a fixed number of values, but they all have different meanings that don't make sense to  use a number for:
+
+```java
+enum Direction {
+  NORTH;
+  EAST;
+  SOUTH;
+  WEST;
+}
+```
+
+### Objects
+** A **class** describes what an object has and what it can do, as well as what it is. Its **fields** are like variables attached to the object, and its **methods**  let it be used in subroutines. In Java, the following syntax is used:
+
+```java
+class Person {
+  // fields
+  String name;
+  int age;
+  // methods
+  void print() {
+    System.out.println(name + " - " + age);
+  }
+}
+```
+
+An **object** is an instance of a class.
 
 # Programming concepts
 The following kinds of statements can be used in Java:
