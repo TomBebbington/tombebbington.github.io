@@ -1,5 +1,5 @@
 ---
-title: programming
+title: 3.1.1 - Programming
 layout: post
 category: computing
 tags: CS3.1
@@ -31,10 +31,13 @@ A **data type** is what variables' types are classed as. The following are the f
 The following kinds of statements can be used in Java:
 
   * a **variable declaration** is for when you want to give a name to a value or change the value easily. i.e.:
+
 ```java
 int howMany = 3;
 ```
+
   * a **constant declaration** is for when you want to give a name to a value that won't (and can't) be changed throughout the program.
+
 ```java
 final int DUCKS = 200;
 ```
@@ -44,6 +47,7 @@ final int DUCKS = 200;
 ```java
 howMany = 4;
 ```
+
   * **iteration** is the constant repetition of certain parts of a program . If it is **definite iteration**, then it will be ran a set number of times. If it is **indefinite iteration** then it is ran until a certain condition is met.
 
 ```java
@@ -52,6 +56,7 @@ for(int i = 0; i < 20; i++)
 ```
 
   * a **selection** is used when you want to run different parts of code when a certain value is different values. In Java, we use `switch` statements or `if` statements depending on if it is either an integer or enum, or not.
+
 ```java
 switch(value) {
     case 12:
@@ -64,25 +69,30 @@ switch(value) {
 ```
 
   * a **function** is a bit of code with a purpose that returns a specific data type.
+
 ```java
 public static int add(int a, int b) {
     return a + b;
 }
 ```
+
 **Operations** are kinds of expressions you can run on one or more of the same data type.
 
 **Arithmetic operations** are those that are done on numbers, and the following are basic examples:
 
   * **addition** is used when you want to add two values or get the summation of several values.
+
 ```java
 x + y
 ```
   * **subtraction** is used when you want to take away one value from another.
+
 ```java
 x - y
 ```
 
   * **multiplication** is used when you want to get the product of two or more values.
+
 ```java
 x * y
 ```
@@ -97,13 +107,17 @@ x / y
 
 
   * **exponentiation** is used when you want to raise a number to a given power. In Java, we use the `Math.pow` method:
+
 ```java
 Math.pow(x, y)
 ```
+
   * **rounding** is used when you only want a certain degree of accuracy.
+
 ```java
 Math.round(x / y) * y
 ```
+
   * **truncation** is used when you don't want the decimal part of a real value.
 
 The following relational operations exist:
