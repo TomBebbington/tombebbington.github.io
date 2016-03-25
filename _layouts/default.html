@@ -27,11 +27,10 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            {% for category in site.categories %}
-            <a href="{{ site.baseurl }}/categories/#{{ category | first }}">{{ category | first   }}</a>
-            {% endfor %}
             <a href="{{ site.baseurl }}/about">About</a>
+            {% for category in site.categories %}
+              <a href="{{ site.baseurl }}/categories/{{ category | first }}">{{ category | first | replace:'-',' ' | capitalize }}</a>
+            {% endfor %}
           </nav>
         </header>
       </div>

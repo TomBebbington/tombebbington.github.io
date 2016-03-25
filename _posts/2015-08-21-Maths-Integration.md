@@ -1,12 +1,10 @@
 ---
 published: true
 layout: post
-title: "Integration - Maths"
-tags: maths
-category: Maths
+title: Integration
+tags: C1
+category: maths
 ---
-
-
 
 _Integration_ is the process of finding the equation of a graph from the equation of its gradient. It is the exact inverse of differentiation.
 

@@ -1,9 +1,9 @@
 ---
 published: true
 layout: post
-title: "Differentiation - Maths"
-tags: maths
-categories: Maths
+title: Differentiation
+tags: C1
+category: maths
 ---
 
 
