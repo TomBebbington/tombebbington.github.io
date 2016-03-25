@@ -1,4 +1,5 @@
 ---
+published: true
 title: 3.1.1 - Programming
 layout: post
 category: computing
