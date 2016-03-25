@@ -1,0 +1,18 @@
+---
+published: true
+title: "4 - Series"
+category: further-maths
+tags: FP1
+layout: post
+---
+
+Summation of series can often be calculated by substituting in the following formulas:
+\`sum_{r=1}^{n} 1 = n\`
+
+\`sum_{r=1}^{n} r = \frac{1}{2}n(n + 1)\`
+
+\`sum_{r=1}^{n} r^2 = \frac{1}{6}n(n + 1)(2n + 1)\`
+
+\`sum_{r=1}^{n} r^3 = \frac{1}{4}n^2(n + 1)^2\`
+
+You can then use these equations to break down bits of a summation overr a series until it simplifies into something solvable.
