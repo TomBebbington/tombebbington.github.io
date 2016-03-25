@@ -10,10 +10,19 @@ A **data structure** is a way of storing data in an organised but accessible for
 An **abstract data type** is a purely conceptual model of how this data is stored and operations that be done on them.
 
 # Arrays
-An **array** is a sequential list of data, where each item of data is called an **element**. These can have more than one dimension e.g. for a 2D image, you would use a two-dimension array to store the pixel values.
+An **array** is a sequential list of data, where each item of data is called an **element**. These can have more than one dimension e.g. for a 2D image, you would use a two-dimension array to store the pixel values. In Java, we use the syntax:
+
+```java
+// when you have values to assign
+int[] ages = {6, 7, 3, 23};
+float[] weights = {60.5, 23.1, 223.4, 40.2};
+
+// when you just want zeroes
+int[][] pixels = new int[640][480];
+```
 
 # Files
-Files are split into two categories: binary and text files.
+Files are split into two categories: **binary** and **text** files.
 
 ## Binary files
 These start with a bit sequence known as a **header** which indicate what kind of file this is, and only consist of bits. Some common formats are:
