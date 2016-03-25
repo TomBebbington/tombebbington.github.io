@@ -141,7 +141,8 @@ Math.round(x / y) * y
   * **truncation** is used when you don't want the decimal part of a real value.
 
 # Relation operations
-These compare two values, yielding a **boolean**:
+These compare two values, yielding a `boolean`:
+
   * The **equal to** operator checks if two values are the same. If the value is an object, this checks that it is the same instance of the object.
 
 ```java
@@ -155,18 +156,25 @@ x != y
 ```
  
   * The **less than** operator checks if one value is lesser than the other, but does not allow them to be equal.
+
 ```java
 x < y
 ```
+
   * The **less than or equal to** operator checks if one value is lesser than or equal to the other.
+
 ```java
 x <= y
 ```
+
   * The **greater than** operator checks if one value is greater than the other, but does not allow them to be equal.
+
 ```java
 x > y
 ```
+
   * The **greater than or equal to** operator checks if one value is greater than or equal to the other.
+
 ```java
 x >= y
 ```
@@ -174,25 +182,26 @@ x >= y
 # Boolean operations
 These do an operation on booleans, yielding a boolean:
 The following boolean operations exist:
-  * The **NOT** operation (!) returns the inverse of the value given.
+
+  * The **NOT** operator yields the inverse of the value given.
 
 ```java
 !x
 ```
 
-  * The **AND** operation (&&) returns true if both values are true.
+  * The **AND** operator returns `true` if both values are `true`.
 
 ```java
 x && y
 ```
 
-  * The **OR** operation (||) returns true if at least one of the values is true.
+  * The **OR** operator returns `true` if at least one of the values is `true`.
 
 ```java
 x || y
 ```
 
-  * The **XOR** operation (^) returns true if just one of the values is true.
+  * The **XOR** operator yields `true` if just one of the values is `true`.
 
 ```java
 x ^ y
@@ -391,12 +400,14 @@ print(blind_mode("zombie", "mummy", "your reflection"));
 # Local variables in a subroutine
 
 When a variable is declared inside of a subroutine, it is known as a **local variable** and has the following properies:
+
 * It only exists inside the subroutine.
 * It can only be accessed from the subroutine.
 
 # Global variables
 
 When a variable is declared outside of a subroutine, it is known as a **global variable** and has the following properties:
+
 * It exists throughout the entire program.
 * I can be accessed from any part of the program.
 
