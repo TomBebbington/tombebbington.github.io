@@ -22,6 +22,7 @@ A **data type** is what variables' types are classed as. The following are the f
   * A **date** will store data in a format that can be easily identified as a date.
   * A **pointer** points to another data type and can be **dereferenced** to get the data it is pointing to.
   * An **array** is a sequence of the same data type.
+
 ## User-definable data types
   * An **object** is an instance of a class that can have its methods called.
   * A **class** is a description of an object and some static variables and methods.
@@ -198,6 +199,7 @@ x ^ y
 ```
 
 # Constants and variables
+
 ## Variables
 A **variable** is a value that has been given an identifier and can be changed:
 
@@ -206,6 +208,7 @@ int total = 5;
 total = 8;
 return total;
 ```
+
 ## Constants
 A **constant** is a value that has been given an identifier but can *not* be changed. In Java, a variable can be constant if it has the `final` keyword before it:
 
@@ -284,6 +287,7 @@ String s = Double.toString(3.14159265d);
 ```
 
 # Random numbers
+
 ## Using Math.random
 The most flexible way of generating random numbers in Java is by using the method `Math.random`, which returns a **double** between `0` and `1`:
 
