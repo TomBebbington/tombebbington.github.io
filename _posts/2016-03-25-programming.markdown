@@ -3,7 +3,6 @@ title: 3.1.1 - Programming
 layout: post
 category: computing
 tags: CS3.1
-layout: post
 ---
 
 # Data types
