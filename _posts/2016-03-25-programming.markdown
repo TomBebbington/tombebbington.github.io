@@ -76,9 +76,8 @@ public static int add(int a, int b) {
 }
 ```
 
-**Operations** are kinds of expressions you can run on one or more of the same data type.
-
-**Arithmetic operations** are those that are done on numbers, and the following are basic examples:
+# Arithmetic operations
+These do an operation on two numbers, yielding a number:
 
   * **addition** is used when you want to add two values or get the summation of several values.
 
@@ -120,18 +119,61 @@ Math.round(x / y) * y
 
   * **truncation** is used when you don't want the decimal part of a real value.
 
-The following relational operations exist:
+# Relation operations
+These compare two values, yielding a **boolean**:
+  * The **equal to** operator checks if two values are the same. If the value is an object, this checks that it is the same instance of the object.
 
-  * The **equal to** operator (==) checks if two values are the same. If the value is an object, this checks that it is the same instance of the object.
-  * The **not equal to** operator (!=) checks if two values are not the same. If the value is an object, this checks that it isn't the same instance of the object.
-  * The **less than** (<) operator checks if one value is lesser than the other, but does not allow them to be equal.
-  * The **less than or equal to** (<=) operator checks if one value is lesser than or equal to the other.
-  * The **greater**** than**** **(>) operator checks if one value is greater than the other, but does not allow them to be equal.
-  * The **greater than or equal to** (>=) operator checks if one value is greater than or equal to the other.
+```java
+x == y
+```
 
+  * The **not equal to** operator checks if two values are not the same. If the value is an object, this checks that it isn't the same instance of the object.
+
+```java
+x != y
+```
+ 
+  * The **less than** operator checks if one value is lesser than the other, but does not allow them to be equal.
+```java
+x < y
+```
+  * The **less than or equal to** operator checks if one value is lesser than or equal to the other.
+```java
+x <= y
+```
+  * The **greater than** operator checks if one value is greater than the other, but does not allow them to be equal.
+```java
+x > y
+```
+  * The **greater than or equal to** operator checks if one value is greater than or equal to the other.
+```java
+x >= y
+```
+
+# Boolean operations
+These do an operation on booleans, yielding a boolean:
 The following boolean operations exist:
-
   * The **NOT** operation (!) returns the inverse of the value given.
+
+```java
+!x
+```
+
   * The **AND** operation (&&) returns true if both values are true.
+
+```java
+x && y
+```
+
   * The **OR** operation (||) returns true if at least one of the values is true.
+
+```java
+x || y
+```
+
   * The **XOR** operation (^) returns true if just one of the values is true.
+
+```java
+x ^ y
+```
+
