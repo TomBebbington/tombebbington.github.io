@@ -7,7 +7,7 @@ layout: post
 ---
 
 # Data types
-A **data type** is what variables' types are classed as. The following are the fundamental, built-in data types:
+A **data type** is what variables' types are classed as:
 
 ## Built-in data types
   * An **integer** is a whole number represented in binary.
