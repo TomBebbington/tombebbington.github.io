@@ -6,9 +6,7 @@ tags: FP1
 layout: post
 ---
 
-# Formula
-
-As taught in GCSE, every single quadratic can be expressed in this form:
+As taught at GCSE, every single quadratic can be expressed in this form:
 
 \`ax^2 + bx + c = 0\`
 
@@ -28,12 +26,12 @@ Which simplifies to:
 
 \`x^2 - (\alpha + \beta)x + \alpha\beta = 0\`
 
-From this, we can derive the following properties:
+From this, we can derive the sum and product of the roots from the first equation:
 
-## Sum of roots
+# Sum of roots
 \`\alpha + \beta = \frac{-b}{a}\`
 
-## Product of roots
+# Product of roots
 \`\alpha \times \beta = \frac{c}{a}\`
 
 # New equations by substitution
