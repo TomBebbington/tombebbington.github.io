@@ -1,4 +1,5 @@
 ---
+published: true
 title: 3.2.1 - Data structures and abstract data types
 layout: post
 category: computing

@@ -1,0 +1,84 @@
+---
+published: true
+title: 3.5.4 - Binary number system
+layout: post
+category: computing
+tags: CS3.5
+---
+
+# Signed / Unsigned
+
+**Signed binary** is binary that can be positive or negative, so it can be two's complement for a negative number or anything else for a positive number. The values of these range from `-2 ^ n - 1` to `2 ^ n` where n is the number of bits.
+
+**Unsigned binary** is binary that can only be positive, so it has double the range of signed binary. The values of these range from `0` to `2 ^ n - 1` where n is the number of bits.
+
+# Negation
+
+To get the negative of a binary number, invert the bits and add one. For example:
+
+```
+* 0101 0001 ( 81)
+~ 0101 0001 =
+  1010 1110 (-82)
+
+  1010 1110 (-82)
+- 0000 0001 (1)
+  ---------
+  1010 1111 (-81)
+```
+
+# Addition
+
+Addition is done the same as decimal just with 2 digit states instead of 10. For example:
+
+```
+  0111 0101 (117)
+- 1000 0001 (129)
+  ---------
+          0 (carry the one)
+         1
+        1
+       0
+     1
+    1
+   1
+  1
+  ---------
+= 1111 0110 (246)
+```
+
+# Subtraction
+
+Subtraction is just addition of the negative of the second number. For example:
+    
+```
+  1000 0001 ( 129)
+* 0111 0101 ( 117)
+
+* 0111 0101 ( 117)
+= 1000 1011 (-117)
+
+  1000 0001 ( 129)
+- 1000 1011 (-117)
+  ---------
+= 0000 1100 (  12)
+```
+
+# Shifting
+
+Shifting is simply moving the bits a certain amount to the left or right. Note that:
+
+* Shifting an integer left by \`n\` is the same as multiplying it by \`2 ^ n\`.
+* Shifting an integer right by \`n\` is the same as dividing by \`2 ^ n\`.
+
+For example:
+    
+```
+  0010 1010 (  42)
+<< 2 (shifted left by 2 bits)
+= 1010 1000 ( 168)
+
+  1010 0100 ( 164)
+>> 2 (shifted right by 2 bits)
+= 0010 1001 (  41)
+```
