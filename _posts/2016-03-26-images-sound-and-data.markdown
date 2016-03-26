@@ -139,9 +139,12 @@ This is when unneeded data is preserved.
 
 ## Symmetric ciphers
 
-A **symmetric cipher** is one that uses a single key to both encrypt and decrypt data, for example:
+A **symmetric cipher** is one that uses a single key to both encrypt and decrypt data. Examples of this includes the **Caesar** and **Vernam** ciphers.
 
-  * The **Caesar** cipher is one based on substitution, where the values are shifted by a certain value and to be decrypted have to be shifted in the reverse direction. The most common form of this is the *ROT13* function, which shifts a letter by 13 places.
+### Caeser cipher
+The **Caesar** cipher is based on substitution, where the values are shifted by a certain value and to be decrypted have to be shifted in the reverse direction. The most common form of this is the *ROT13* function, which shifts a letter by 13 places.
+
+This is easy to crack as there are only so many combinations.
   * The **Vernam** cipher is a one-time pad using the bitwise *XOR* operation with the random key to make it unbreakable.
 
 ## Asymmetric ciphers
