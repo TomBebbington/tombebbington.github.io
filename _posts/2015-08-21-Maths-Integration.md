@@ -4,6 +4,7 @@ layout: post
 title: Integration
 tags: C1
 category: maths
+summary: Integration is finding the equation of a curve from its gradient.
 ---
 
 _Integration_ is the process of finding the equation of a graph from the equation of its gradient. It is the exact inverse of differentiation.

@@ -4,6 +4,7 @@ title: "3.9.2 - Networking"
 layout: post
 category: computing
 tags: CS3.9
+summary: Computers have so many ways of connecting to each other in networks that lots of protocols and kinds of these networks have been created.
 ---
 
 # Network topology

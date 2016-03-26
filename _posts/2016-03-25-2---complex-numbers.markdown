@@ -4,6 +4,7 @@ title: "2 - Complex Numbers"
 category: further-maths
 tags: FP1
 layout: post
+summary: Complex numbers let numbers we couldn't even visualise be represented easily and manipulated like any other binomial.
 ---
 
 # Imaginary numbers

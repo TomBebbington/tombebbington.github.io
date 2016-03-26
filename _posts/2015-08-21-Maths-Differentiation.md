@@ -4,6 +4,7 @@ layout: post
 title: Differentiation
 tags: C1
 category: maths
+summary: How to do differentiation
 ---
 
 

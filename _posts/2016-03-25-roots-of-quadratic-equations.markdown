@@ -4,6 +4,7 @@ title: "3 - Roots of Quadratic Equations"
 category: further-maths
 tags: FP1
 layout: post
+summary: Every quadratic equation has properties that can be derived by substituting certain values in.
 ---
 
 As taught at GCSE, every single quadratic can be expressed in this form:

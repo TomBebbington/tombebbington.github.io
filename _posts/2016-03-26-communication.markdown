@@ -4,6 +4,7 @@ title: 3.9.1 - Communication
 layout: post
 category: computing
 tags: CS3.9
+summary: Computers communicate in many different ways, and there are a lot of factors that contribute to this.
 ---
 
 # Communication methods

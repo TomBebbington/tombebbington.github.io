@@ -4,6 +4,7 @@ title: 3.1.1 - Programming
 layout: post
 category: computing
 tags: CS3.1
+summary: The basics of programming.
 ---
 
 # Data types

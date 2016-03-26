@@ -4,6 +4,7 @@ title: 3.5.4 - Binary number system
 layout: post
 category: computing
 tags: CS3.5
+summary: Binary can be added, subtracted, multiplied and divided just like regular decimal numbers, you just have to know how to do it.
 ---
 
 # Signed / Unsigned

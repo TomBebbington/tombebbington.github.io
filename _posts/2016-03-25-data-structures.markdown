@@ -4,9 +4,10 @@ title: 3.2.1 - Data structures and abstract data types
 layout: post
 category: computing
 tags: CS3.2
+summary: Data structures store data in an organised yet accessible format, lending themselved to different contexts.
 ---
 
-A **data structure** is a way of storing data in an organised but accessible foramt, and typically different data structures lend themselves to different contexts.
+A **data structure** is a way of storing data in an organised but accessible format, and typically different data structures lend themselves to different contexts.
 
 An **abstract data type** is a purely conceptual model of how this data is stored and operations that be done on them.
 

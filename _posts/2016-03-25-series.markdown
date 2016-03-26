@@ -4,6 +4,7 @@ title: "4 - Series"
 category: further-maths
 tags: FP1
 layout: post
+summary: Series let us add the result of an expression for every number between a start number and end number.
 ---
 
 Summation of series can often be calculated by substituting in the following formulas:

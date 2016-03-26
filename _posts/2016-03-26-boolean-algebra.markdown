@@ -4,8 +4,8 @@ title: 3.6.5 - Boolean Algebra
 layout: post
 tags: CS3.6
 category: computing
+summary: Boolean algebra lets us express operations on true / false numbers with a mathemetical syntax.
 ---
-
 
 Boolean algebra is a way of expressing operations on true / false numbers with a mathematical syntax. The following are the laws of Boolean algebra:
 
