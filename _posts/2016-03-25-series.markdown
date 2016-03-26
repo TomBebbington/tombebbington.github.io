@@ -5,10 +5,13 @@ title: Series
 category: further-maths
 tags: FP1
 layout: post
-summary: Series let us add the result of an expression for every number between a start number and end number.
+summary: Series let us find the total of a sequence.
 ---
 
+# Formulae
+
 Summation of series can often be calculated by substituting in the following formulas:
+
 \`sum_{r=1}^{n} 1 = n\`
 
 \`sum_{r=1}^{n} r = \frac{1}{2}n(n + 1)\`
@@ -18,3 +21,19 @@ Summation of series can often be calculated by substituting in the following for
 \`sum_{r=1}^{n} r^3 = \frac{1}{4}n^2(n + 1)^2\`
 
 You can then use these equations to break down bits of a summation overr a series until it simplifies into something solvable.
+
+# Example
+
+\`sum_{n=1}^{20} 2n + 5\`
+
+First, we break it down into summations for which we know the formulas:
+
+\`sum_{n=1}^{20} 2n + 5 = 2sum_{n=1}^{20}n + 5sum_{n=1}^{20}1\`
+
+Second, we substitute the formulas in:
+
+\`2sum_{n=1}^{20}n + 5sum_{r=1}^{20}1 = 2 \times \frac{1}{2} \times 20 \times 21 + 5 \times 20 \`
+
+Then, we simplify until we arrive at a valid answer:
+
+\`2 \times \frac{1}{2} \times 20 \times 21 + 5 \times 20 = 420 + 100 = 520\`
