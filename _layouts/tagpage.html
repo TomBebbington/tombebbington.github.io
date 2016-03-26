@@ -4,15 +4,17 @@ layout: default
 
 <h1>{{ page.tag }}</h1>
 
-<ul>
+
 {% capture posts %}
   {% for post in site.tags[page.tag] %}
-    |{{ post.title }}#{{ post.url }}
+    |{{ post.title }}#{{ post.url }}#{{ post.summary }}
   {% endfor %}
 {% endcapture %}
 {% assign sortedposts = posts | split: '|' | sort %}
 {% for post in sortedposts %}
     {% assign postitems = post | split: '#' %}
-    <li><a href="{{ postitems[1] }}">{{ postitems[0] }}</a></li>
+    <div class = "post-preview">
+    	<a href="{{ postitems[1] }}">{{ postitems[0] }}</a>
+    	<section>{{ postitems[2] }}</section>
+    </div>
 {% endfor %}
-</ul>

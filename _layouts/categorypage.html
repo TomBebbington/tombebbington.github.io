@@ -12,8 +12,8 @@ layout: default
 {% assign sortedposts = posts | split: '|' | sort %}
 {% for post in sortedposts %}
     {% assign postitems = post | split: '#' %}
-    <div>
-    	<a href="{{ postitems[1] }}">{{ postitems[0] }}</a><br>
+    <div class = "post-preview">
+    	<a href="{{ postitems[1] }}">{{ postitems[0] }}</a>
     	<section>{{ postitems[2] }}</section>
     </div>
 {% endfor %}
