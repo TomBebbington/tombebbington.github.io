@@ -488,7 +488,7 @@ static int count(String text) {
 When a variable is declared outside of a subroutine, it is known as a **global variable** and has the following properties:
 
 * It exists throughout the entire program.
-* I can be accessed from any part of the program.
+* It can be accessed from any part of the program.
 
 In Java, any class field preceded by a `static` is a global variable:
 

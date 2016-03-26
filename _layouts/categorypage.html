@@ -3,7 +3,9 @@ layout: default
 ---
 
 <h1>{{ page.category | replace:'-',' ' | capitalize }}</h1>
-
+{% if page.spec %}
+<a href = "{{page.spec}}">Specification</a>
+{% endif %}
 {% assign sections = site.data.sections | where:"subject", page.title %}
 {% for section in sections %}
   <h2><a href = "{{site.baseurl}}/tags/{{section.code}}">{{section.name}}</a></h2>
