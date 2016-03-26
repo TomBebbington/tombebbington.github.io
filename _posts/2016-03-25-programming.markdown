@@ -38,7 +38,7 @@ enum Direction {
 ```
 
 ### Objects
-** A **class** describes what an object has and what it can do, as well as what it is. Its **fields** are variables attached to the object, and its **methods** attach subroutines to the object. If any of these fields or methods have `static` in front, they are attached to the class itself instead. In Java, the following syntax is used:
+A **class** describes what an object has and what it can do, as well as what it is. Its **fields** are variables attached to the object, and its **methods** attach subroutines to the object. If any of these fields or methods have `static` in front, they are attached to the class itself instead. In Java, the following syntax is used:
 
 ```java
 class Person {
@@ -50,15 +50,38 @@ class Person {
     System.out.println(name + " - " + age);
   }
   public static void main() {
-    Person me = new Person();
-    me.name = "Light Yaogami";
-    me.age = 18;
-    me.print(); // "Light Yaogami - 18" is output
+    Person kila = new Person();
+    kila.name = "Light Yaogami";
+    kila.age = 18;
+    kila.print(); // "Light Yaogami - 18" is output
   }
 }
 ```
 
-An **object** is an instance of a class.
+An **object** is an instance of a class. You can access the object from any method using `this`.
+
+#### Constructors
+A **constructor** allows a class to give fields values from its arguments and is like any other method, except it is just called the name of the class, and has an empty return type:
+
+```java
+class Person {
+  // fields
+  String name;
+  int age;
+  // methods
+  void print() {
+    System.out.println(name + " - " + age);
+  }
+  Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+  public static void main() {
+    Person kila = new Person("Light Yaogami", 18);
+    kila.print(); // "Light Yaogami - 18" is output
+  }
+}
+```
 
 # Programming concepts
 The following kinds of statements can be used in Java:
@@ -81,24 +104,22 @@ static final int DUCKS = 200;
 howMany = 4;
 ```
 
-  * **iteration** is the constant repetition of certain parts of a program . If it is **definite iteration**, then it will be ran a set number of times. If it is **indefinite iteration** then it is ran until a certain condition is met. This is typically done with the `for` loop as it is included in most languages. In Java:
+  * **iteration** is the constant repetition of certain parts of a program . If it is **definite iteration**, then it will be ran a set number of times. If it is **indefinite iteration** then it is ran until a certain condition is met. This is typically done with the `for` loop, as it is included in most languages. In Java:
 
 ```java
 for(int i = 0; i < 20; i++)
     System.out.println(i);
 ```
 
-In Rust:
-
-```rust
-for i in 0...20 {
-  println!("{}", i);
-}
+Or, alternatively:
+```java
+IntStream.range(0, 20).forEach(System.out:println);
 ```
 
   * a **selection** is used when you want to run different parts of code when a certain value is different values. In Java, we use `switch` statements or `if` statements depending on if it is either an integer or enum, or not.
 
 ```java
+int value = 3;
 switch(value) {
     case 12:
         return "Yes, this is 12!";
@@ -107,6 +128,13 @@ switch(value) {
     default:
         return "Whaaat";
 }
+float other = 3.4f;
+if(other == 3.4f)
+  return "All is well";
+else if(other < 3.4f)
+  return "Too smol!";
+else
+  return "Too berg!";
 ```
 
   * a **subroutine** is a bit of code with a purpose that returns a specific data type. In Java, we use methods for this purpose:
