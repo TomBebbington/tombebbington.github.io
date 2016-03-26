@@ -1,6 +1,6 @@
 ---
 published: true
-title: "2 - Complex Numbers"
+title: "FP1.2 - Complex Numbers"
 category: further-maths
 tags: FP1
 layout: post

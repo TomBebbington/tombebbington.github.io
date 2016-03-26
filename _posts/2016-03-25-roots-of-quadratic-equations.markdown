@@ -1,6 +1,6 @@
 ---
 published: true
-title: "3 - Roots of Quadratic Equations"
+title: "FP1.3 - Roots of Quadratic Equations"
 category: further-maths
 tags: FP1
 layout: post

@@ -1,6 +1,6 @@
 ---
 published: true
-title: "4 - Series"
+title: "FP1.4 - Series"
 category: further-maths
 tags: FP1
 layout: post

@@ -18,5 +18,8 @@ published: true
     <a href="{{ site.baseurl }}/categories/{{ page.category }}">{{page.category  | replace:'-',' ' | capitalize }}</a>
   </div>
 
+  <div class="tags">
+    <a href="{{ site.baseurl }}/tags/{{ page.tag }}">{{ page.tag }}</a>
+  </div>
   {% include disqus.html %}
 </article>
