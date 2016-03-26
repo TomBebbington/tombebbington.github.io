@@ -14,12 +14,8 @@ published: true
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   
-  <div class="categories">
-    <a href="{{ site.baseurl }}/categories/{{ page.category }}">{{page.category  | replace:'-',' ' | capitalize }}</a>
-  </div>
-
-  <div class="tags">
-    <a href="{{ site.baseurl }}/tags/{{ page.tag }}">{{ page.tag }}</a>
-  </div>
+  <a href="{{ site.baseurl }}/categories/{{ page.category }}">{{page.category  | replace:'-',' ' | capitalize }}</a>
+  -
+  <a href="{{ site.baseurl }}/tags/{{ page.tags[0] }}">{{ page.tags[0] }}</a>
   {% include disqus.html %}
 </article>

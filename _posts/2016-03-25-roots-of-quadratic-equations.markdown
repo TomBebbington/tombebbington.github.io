@@ -1,6 +1,7 @@
 ---
 published: true
-title: "FP1.3 - Roots of Quadratic Equations"
+code: 3
+title: Roots of Quadratic Equations
 category: further-maths
 tags: FP1
 layout: post

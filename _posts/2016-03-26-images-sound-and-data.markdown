@@ -1,6 +1,7 @@
 ---
 published: true
-title: 3.5.6 - Representing images, sound and other data
+code: 6
+title: Representing images, sound and other data
 layout: post
 category: computing
 tags: CS3.5

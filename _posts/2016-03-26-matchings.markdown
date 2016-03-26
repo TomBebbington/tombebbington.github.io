@@ -1,6 +1,7 @@
 ---
 published: true
-title: D1.4 - Matchings
+title: Matchings
+code: 4
 layout: post
 category: further-maths
 tags: D1

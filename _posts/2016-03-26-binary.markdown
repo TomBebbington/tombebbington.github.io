@@ -1,6 +1,7 @@
 ---
 published: true
-title: 3.5.4 - Binary number system
+code: 4
+title: Binary number system
 layout: post
 category: computing
 tags: CS3.5

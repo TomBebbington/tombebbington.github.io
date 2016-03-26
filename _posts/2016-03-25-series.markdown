@@ -1,6 +1,7 @@
 ---
 published: true
-title: "FP1.4 - Series"
+code: 4
+title: Series
 category: further-maths
 tags: FP1
 layout: post

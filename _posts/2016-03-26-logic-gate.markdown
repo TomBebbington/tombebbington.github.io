@@ -1,6 +1,7 @@
 ---
 published: true
-title: 3.6.4 - Logic gates
+code: 4
+title: Logic gates
 layout: post
 tags: CS3.6
 category: computing

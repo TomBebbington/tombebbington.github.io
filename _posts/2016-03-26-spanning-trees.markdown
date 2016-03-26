@@ -1,6 +1,7 @@
 ---
 published: true
-title: D1.3 - Spanning Tree Problems
+code: 3
+title: Spanning Tree Problems
 layout: post
 category: further-maths
 tags: D1

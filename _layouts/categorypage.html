@@ -4,16 +4,22 @@ layout: default
 
 <h1>{{ page.category | replace:'-',' ' | capitalize }}</h1>
 
-{% capture posts %}
-  {% for post in site.categories[page.category] %}
-    |{{ post.title }}#{{ post.url }}#{{ post.summary }}
-  {% endfor %}
-{% endcapture %}
-{% assign sortedposts = posts | split: '|' | sort %}
-{% for post in sortedposts %}
-    {% assign postitems = post | split: '#' %}
-    <div class = "post-preview">
-    	<a href="{{ postitems[1] }}">{{ postitems[0] }}</a>
-    	<section>{{ postitems[2] }}</section>
-    </div>
+{% assign sections = site.data.sections | where:"subject", page.title %}
+{% for section in sections %}
+  <h2><a href = "{{site.baseurl}}/tags/{{section.code}}">{{section.name}}</a></h2>
+  <section>
+	{% capture posts %}
+	  {% for post in site.tags[section.code] %}
+	    |{{ post.title }}#{{ post.url }}#{{ post.summary }}
+	  {% endfor %}
+	{% endcapture %}
+	{% assign sortedposts = posts | split: '|' | sort: 'code' %}
+	{% for post in sortedposts %}
+	    {% assign postitems = post | split: '#' %}
+	    <div class = "post-preview">
+	    	<h3><a href="{{ postitems[1] }}">{{ postitems[0] }}</a></h3>
+	    	<section>{{ postitems[2] }}</section>
+	    </div>
+	{% endfor %}
+  </section>
 {% endfor %}

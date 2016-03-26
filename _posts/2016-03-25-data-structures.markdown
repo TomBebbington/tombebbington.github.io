@@ -1,6 +1,7 @@
 ---
 published: true
-title: 3.2.1 - Data structures and abstract data types
+code: 1
+title: Data structures and abstract data types
 layout: post
 category: computing
 tags: CS3.2

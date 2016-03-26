@@ -1,20 +1,19 @@
 ---
 layout: default
 ---
-
-<h1>{{ page.tag }}</h1>
-
-
+{% assign data = site.data.sections | where:"code", page.tag %}
+<h1>{{ data[0].subject }}</h1>
+<h2>{{ data[0].name }}</h2>
 {% capture posts %}
   {% for post in site.tags[page.tag] %}
     |{{ post.title }}#{{ post.url }}#{{ post.summary }}
   {% endfor %}
 {% endcapture %}
-{% assign sortedposts = posts | split: '|' | sort %}
+{% assign sortedposts = posts | split: '|' | sort: 'code' %}
 {% for post in sortedposts %}
     {% assign postitems = post | split: '#' %}
     <div class = "post-preview">
-    	<a href="{{ postitems[1] }}">{{ postitems[0] }}</a>
-    	<section>{{ postitems[2] }}</section>
+    	<h3><a href="{{ postitems[1] }}">{{ postitems[0] }}</a></h3>
+    	<p>{{ postitems[2] }}</p>
     </div>
 {% endfor %}

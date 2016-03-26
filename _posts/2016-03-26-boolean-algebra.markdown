@@ -1,6 +1,7 @@
 ---
 published: true
-title: 3.6.5 - Boolean Algebra
+code: 5
+title: Boolean Algebra
 layout: post
 tags: CS3.6
 category: computing

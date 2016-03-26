@@ -1,7 +1,8 @@
 ---
 published: true
-title: "3.9.2 - Networking"
+title: Networking
 layout: post
+code: 2
 category: computing
 tags: CS3.9
 summary: Computers have so many ways of connecting to each other in networks that lots of protocols and kinds of these networks have been created.

@@ -1,0 +1,51 @@
+- code: FP1
+  name: Further Pure 1
+  subject: Further Maths
+
+- code: FP2
+  name: Further Pure 2
+  subject: Further Maths
+
+- code: D1
+  name: Decision 1
+  subject: Further Maths
+
+- code: D2
+  name: Decision 2
+  subject: Further Maths
+
+- code: CS3.1
+  name: Fundamentals of programming
+  subject: Computing
+
+- code: CS3.2
+  name: Fundamentals of data structures
+  subject: Computing
+
+- code: CS3.3
+  name: Systematic approach to problem solving
+  subject: Computing
+
+- code: CS3.4
+  name: Theory of computation
+  subject: Computing
+
+- code: CS3.5
+  name: Fundamentals of data representation
+  subject: Computing
+
+- code: CS3.6
+  name: Fundamentals of computer systems
+  subject: Computing
+
+- code: CS3.7
+  name: Fundamentals of computer organisation and architecture
+  subject: Computing
+
+- code: CS3.8
+  name: Consequences of uses of computing
+  subject: Computing
+
+- code: CS3.9
+  name: Fundamentals of communication and networking
+  subject: Computing
