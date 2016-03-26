@@ -19,14 +19,15 @@ Bytes can be given in two different kinds of units:
 ## Decimal prefixes
 The decimal prefixes are in powers of ten, with the usual scientific units:
 
-* A kilobyte (k) is `10^3\` bytes.
-* A megabyte (M) is `10^6\` bytes.
-* A gigabyte (G) is `10^9\` bytes.
-* A terabyte (T) is `10^12\` bytes.
+* A kilobyte (k) is \`10^3\` bytes.
+* A megabyte (M) is \`10^6\` bytes.
+* A gigabyte (G) is \`10^9\` bytes.
+* A terabyte (T) is \`10^12\` bytes.
 
 ## Binary prefixes
 The binary prefixes are in powers of two, and are preferred in programming due to them being faster to work with.
-* A kibibyte (Ki) is `2^10\` bytes.
-* A mebibyte (Mi) is `2^20\` bytes.
-* A gibibyte (Gi) is `2^30\` bytes.
-* A tebibyte (Ti) is `2^40\` bytes.
+
+* A kibibyte (Ki) is \`2^10\` bytes.
+* A mebibyte (Mi) is \`2^20\` bytes.
+* A gibibyte (Gi) is \`2^30\` bytes.
+* A tebibyte (Ti) is \`2^40\` bytes.
