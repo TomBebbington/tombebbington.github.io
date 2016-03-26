@@ -8,9 +8,9 @@ tags: CS3.5
 
 # Signed / Unsigned
 
-**Signed binary** is binary that can be positive or negative, so it can be two's complement for a negative number or anything else for a positive number. The values of these range from `-2 ^ n - 1` to `2 ^ n` where n is the number of bits.
+**Signed binary** is binary that can be positive or negative, so it can be two's complement for a negative number or anything else for a positive number. The values of these range from \`-2 ^ {n - 1}\` to \`2 ^ n\` where \`n\` is the number of bits.
 
-**Unsigned binary** is binary that can only be positive, so it has double the range of signed binary. The values of these range from `0` to `2 ^ n - 1` where n is the number of bits.
+**Unsigned binary** is binary that can only be positive, so it has double the range of signed binary. The values of these range from \`0\` to \`2 ^ n - 1\` where n is the number of bits.
 
 # Negation
 
