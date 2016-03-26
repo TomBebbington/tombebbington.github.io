@@ -26,7 +26,7 @@ A **data type** is what variables' types are classed as:
 ## User-definable data types
 
 ### Enums
-**Enums** are an enumeration of values that can be one of a fixed number of values, but they all have different meanings that don't make sense to  use a number for:
+**Enums** are an enumeration of values that can be one of a fixed number of values, but they all have different meanings that don't make sense to  use a number for. An example of this is a direction on a compass:
 
 ```java
 enum Direction {
@@ -38,7 +38,7 @@ enum Direction {
 ```
 
 ### Objects
-** A **class** describes what an object has and what it can do, as well as what it is. Its **fields** are like variables attached to the object, and its **methods**  let it be used in subroutines. In Java, the following syntax is used:
+** A **class** describes what an object has and what it can do, as well as what it is. Its **fields** are variables attached to the object, and its **methods** attach subroutines to the object. If any of these fields or methods have `static` in front, they are attached to the class itself instead. In Java, the following syntax is used:
 
 ```java
 class Person {
@@ -48,6 +48,12 @@ class Person {
   // methods
   void print() {
     System.out.println(name + " - " + age);
+  }
+  public static void main() {
+    Person me = new Person();
+    me.name = "Light Yaogami";
+    me.age = 18;
+    me.print(); // "Light Yaogami - 18" is output
   }
 }
 ```
@@ -263,23 +269,23 @@ The following operations can be done on strings:
 * Its length can be found by the following:
 
 ```java
-text.length()
+text.length(); // 13
 ```
 * The position of a substring inside a string can be found by:
 
 ```java
-text.indexOf("world")
+text.indexOf("world") // 7
 ```
 * The text between positions in a string can be found by:
 
 ```java
-text.substring(0, 5);
+text.substring(0, 5); // "Hello"
 ```
 
-* Strings can be concatenated by:
+* Strings can be joined together using `+`, i.e.:
 
 ```java
-text + " Hereeee's Johhny"
+text + " Hereeee's Johhny" // "Hello, world! Hereeee's Johhny"
 ```
 or:
 
@@ -287,38 +293,40 @@ or:
 StringBuilder builder = new StringBuilder();
 builder.append(text);
 builder.append(" Hereeee's Johhny");
-builder.toString();
+builder.toString(); // "Hello, world! Hereeee's Johhny"
 ```
 
 * The character at a certain offset of a string can be found by:
+
 ```java
-text.charAt(5);
+text.charAt(5); // ' '
 ```
+
 To convert a character to a character code (from an `int` to a `char` in Java):
 
 ```java
-(int) 'a';
+(int) 'a'; // 97
 ```
 
-And the inverse:
+And the inverse, to convert a character code to a character (from a `char` to an `int` in Java):
 
 ```java
-(char) 30;
+(char) 97; // 'a'
 ```
 
-* A string can be converted to a primitive in Java by using the `Primitive.parsePrimitive` method, where `Primitive` is the boxed version of the primitive. For example:
+* A string can be converted to a primitive in Java by finding the boxed / class version of that primitive then calling its `parse_` method:
 ```java
-int a = Integer.parseInt("32");
-float b = Float.parseFloat("45.321");
-double s = Double.parseDouble("3.14159265");
+int a = Integer.parseInt("32"); // 32
+float b = Float.parseFloat("45.321"); // 45.321
+double s = Double.parseDouble("3.14159265"); // 3.14159265
 ```
 
 * Similarly, a primitive can be converted to a string in Java by using the `Primitive.toString` method, where `Primitive` is the boxed version of the primitive. For example:
 
 ```java
-String a = Integer.toString(32);
-String b = Float.toString(45.321f);
-String s = Double.toString(3.14159265d);
+String a = Integer.toString(32);// "32"
+String b = Float.toString(45.321f); // "45.321"
+String s = Double.toString(3.14159265d); // "3.14159265"
 ```
 
 # Random numbers
@@ -348,11 +356,13 @@ double regularOlRandom = rng.nextDouble();
 ```java
 String text = null;
 try {
-  System.out.println(text.length());
+  System.out.println(text.length()); // cannot call method on null
 } catch(NullPointerException e) {
   System.err.println("Text is null!");
 }
 ```
+
+This example will print `"Text is null!"`, as the 3rd line attempts to call the `length` method on a `null` value which is invalid behaviour, hence the exception being thrown.
 
 # Subroutines
 A **subroutine** is a block of code that is give a name, and can be called by writing its name with a set of parentheses after it. In Java, we use methods as subroutines:
@@ -362,7 +372,7 @@ static void bark() {
   System.out.println("Bark!");
 }
 ...
-bark();
+bark(); // Bark!
 ```
 
 In Python, we use functions as subroutines:
@@ -371,7 +381,7 @@ In Python, we use functions as subroutines:
 def bark():
   print "Bark!"
 ...
-bark();
+bark(); # Bark!
 ```
 
 # Subroutine parameters
@@ -383,8 +393,8 @@ static void blindMode(String attempt1, String attempt2, String thing) {
   System.out.println("Is it a " + attempt1 + "? Is it a " + attempt2 + "? No, it's " + thing + "!");
 }
 ...
-blindMode("bird", "plane", "Superman");
-blindMode("zombie", "mummy", "your reflection");
+blindMode("bird", "plane", "Superman"); // "Is it a bird? Is it a plane? No, it's Superman!" is output
+blindMode("zombie", "mummy", "your reflection"); // "Is it a zombie? Is it a mummy? No, it's your reflection!" is output
 ```
 
 In Python, we similarly use the same syntax as with variables:
@@ -393,24 +403,25 @@ In Python, we similarly use the same syntax as with variables:
 def blind_mode(attempt1, attempt2, thing):
   print "Is it a ", attempt1, "? Is it a ", attempt2, "? No, it's ", thing, "!"
 ...
-blind_mode("bird", "plane", "Superman");
-blind_mode("zombie", "mummy", "your reflection");
+blind_mode("bird", "plane", "Superman"); # "Is it a bird? Is it a plane? No, it's Superman!" is output
+blind_mode("zombie", "mummy", "your reflection"); # "Is it a zombie? Is it a mummy? No, it's your reflection!" is output
 ```
 
 # Returning data from a subroutine
 So far, none of  the example subroutines have returned nothing, hence they are classified as procedurers, as they:
+
 * Have a return type of `void`.
 * Don't contain a `return` statement.
 
-In Java, we replace the `void` type with the type we want to return and add a `return` statement:
+In Java, to make a method return a value, we replace the `void` type with the type we want to return and add a `return` statement:
 
 ```java
 static String blindMode(String attempt1, String attempt2, String thing) {
   return "Is it a " + attempt1 + "? Is it a " + attempt2 + "? No, it's " + thing + "!";
 }
 ...
-blindMode("bird", "plane", "Superman");
-blindMode("zombie", "mummy", "your reflection");
+blindMode("bird", "plane", "Superman"); // "Is it a bird? Is it a plane? No, it's Superman!"
+blindMode("zombie", "mummy", "your reflection"); // "Is it a zombie? Is it a monster? No, it's Superman!"
 ```
 
 In Python, we similarly use the same syntax as with variables:
@@ -419,8 +430,8 @@ In Python, we similarly use the same syntax as with variables:
 def blind_mode(attempt1, attempt2, thing):
   return "Is it a ", attempt1, "? Is it a ", attempt2, "? No, it's ", thing, "!"
 ...
-print(blind_mode("bird", "plane", "Superman"));
-print(blind_mode("zombie", "mummy", "your reflection"));
+print(blind_mode("bird", "plane", "Superman")); # "Is it a bird? Is it a plane? No, it's Superman!"
+print(blind_mode("zombie", "mummy", "your reflection")); # // "Is it a zombie? Is it a monster? No, it's Superman!"
 ```
 
 # Local variables in a subroutine
@@ -430,6 +441,18 @@ When a variable is declared inside of a subroutine, it is known as a **local var
 * It only exists inside the subroutine.
 * It can only be accessed from the subroutine.
 
+In Java, if a class field has `static` before it, it is *not* a local variable.
+
+```java
+static int count(String text) {
+  int c = 0; // c is a local variable
+  for(int i = 0; i < text.length(); i++) // i is a local variable
+    c++; // never ever actually do this
+  return c;
+}
+```
+
+
 # Global variables
 
 When a variable is declared outside of a subroutine, it is known as a **global variable** and has the following properties:
@@ -437,4 +460,22 @@ When a variable is declared outside of a subroutine, it is known as a **global v
 * It exists throughout the entire program.
 * I can be accessed from any part of the program.
 
-In Java, any class field preceded by a `static` is a global variable.
+In Java, any class field preceded by a `static` is a global variable:
+
+```java
+class Thing {
+  static int count;
+
+  void run() {
+    count++; // add one to count
+  }
+  static void runTwo() {
+    count++; // add one to count
+  }
+  static void main() {
+    run();
+    runTwo();
+    System.out.println(count); // 2
+  }
+}
+```
