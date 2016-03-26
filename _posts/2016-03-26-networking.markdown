@@ -1,10 +1,11 @@
 ---
 published: true
-title: 3.9.2 - Networking
+title: "3.9.2 - Networking"
 layout: post
 category: computing
 tags: CS3.9
 ---
+
 # Network topology
 
 A **local area network** is a small interconnected area. It typically consists of several clients, a server and a router.
@@ -68,6 +69,7 @@ Disadvantages:
 * More expensive to maintain as specialist knowledge is needed.
 
 # Types of networking
+
 ## Peer-to-peer networking
 **Peer-to-peer networking** is when devices communicate directly to each other without any in-between devices, as a result devices are self-organising and distribute control. However, it is vulnerable to the following:
 
@@ -82,4 +84,3 @@ Disadvantages:
 
   * **Servers** provide services to clients, such as web services and e-mail.
   * **Clients** use services provided by servers, such as in a web browser, and an e-mail client.
-
