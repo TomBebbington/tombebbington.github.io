@@ -3,18 +3,4 @@ layout: default
 published: true
 ---
 
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}/categories/ {{post.category}} ">{{post.category  | replace:'-',' ' | capitalize }}</a> - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.summary }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+Welcome to my revision notes, here you can find all my notes for the AQA AS-Levels I'm doing at the moment. Click at subject at the top to see the specification and notes for each module of the subject.
