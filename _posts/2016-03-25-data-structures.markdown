@@ -5,8 +5,9 @@ title: Data structures and abstract data types
 layout: post
 category: computing
 tags: CS3.2
-summary: Data structures store data in an organised yet accessible format, lending themselved to different contexts.
+summary: "Data structures store data in an organised yet accessible format, lending themselved to different contexts."
 ---
+
 
 A **data structure** is a way of storing data in an organised but accessible format, and typically different data structures lend themselves to different contexts.
 
@@ -23,6 +24,8 @@ float[] weights = {60.5, 23.1, 223.4, 40.2};
 // when you just want zeroes
 int[][] pixels = new int[640][480];
 ```
+
+In this example, `ages` is an array of `int`s because that is the type before the `[]` which indicate that the type is an array. Similarly, `weights` is an array of `float`s, and `pixels` is an array of `int[]`s.
 
 # Files
 Files are split into two categories: **binary** and **text** files.
