@@ -1,6 +1,8 @@
 ---
 layout: default
+published: true
 ---
+
 
 <div class="posts">
   {% for post in site.posts %}
@@ -9,7 +11,7 @@ layout: default
       <h1><a href="{{ site.baseurl }}/categories/ {{post.category}} ">{{post.category  | replace:'-',' ' | capitalize }}</a> - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ post.summary }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
