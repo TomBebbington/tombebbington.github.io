@@ -4,17 +4,22 @@ layout: post
 category: Computing
 tags: CS3.5
 code: 3
-summary: Computers can store and process an awful lot of data, so lots of units to show this size have been created.
+summary: "Computers can store and process an awful lot of data, so lots of units to show this size have been created."
+published: true
 ---
+
 # Bits and bytes
-A bit is a single true/false value and is the smallest value in computers.
+A **bit** is a single true/false value and is the smallest value computers can manipulate.
 
-A byte is 8 bits.
+A **byte** is 8 bits, and every size stored on a computer is in bytes.
 
-A word is the word-length of the processor, usually 32 bits or 64 bits.
+A **word** is the word-length of the processor, usually 32 bits or 64 bits.
 
 # Units
 Bytes can be given in two different kinds of units:
+
++ Decimal prefixes
++ Binary prefixes
 
 ## Decimal prefixes
 The decimal prefixes are in powers of ten, with the usual scientific units:
