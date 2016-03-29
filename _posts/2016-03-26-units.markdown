@@ -1,12 +1,13 @@
 ---
 title: Units of information
 layout: post
-category: Computing
+category: computing
 tags: CS3.5
 code: 3
 summary: "Computers can store and process an awful lot of data, so lots of units to show this size have been created."
 published: true
 ---
+
 
 # Bits and bytes
 A **bit** is a single true/false value and is the smallest value computers can manipulate.
