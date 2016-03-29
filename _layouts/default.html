@@ -27,11 +27,28 @@
           </div>
 
           <nav>
-            <a {{% if page.category == "computing" %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/computing">Computer Science</a>
-            <a {{% if page.category == "maths" %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/maths">Maths</a>
-            <a {{% if page.category == "further-maths" %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/further-maths">Further Maths</a>
-            <a {{% if page.category == "physics" %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/physics">Physics</a>
-            <a {{% if page.category == "category" %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/maths">Maths</a>
+            {{% if page.category == "computing" %}}
+            	<a id="selected" href="{{ site.baseurl }}/categories/computing">Computer Science</a>
+            {{% else %}}
+            	<a href="{{ site.baseurl }}/categories/computing">Computer Science</a>
+            {{% endif %}}
+            {{% if page.category == "maths" %}}
+            	<a id="selected" href="{{ site.baseurl }}/categories/maths">Maths</a>
+            {{% else %}}
+            	<a href="{{ site.baseurl }}/categories/maths">Maths</a>
+            {{% endif %}}
+            {{% if page.category == "further-maths" %}}
+            	<a id="selected" href="{{ site.baseurl }}/categories/further-maths">Further Maths</a>
+            {{% else %}}
+            	<a href="{{ site.baseurl }}/categories/further-maths">Further Maths</a>
+            {{% endif %}}
+            
+            
+            {{% if page.category == "physics" %}}
+            	<a id="selected" href="{{ site.baseurl }}/categories/physics">Physics</a>
+            {{% else %}}
+            	<a href="{{ site.baseurl }}/categories/physics">Physics</a>
+            {{% endif %}}
           </nav>
         </header>
       </div>
