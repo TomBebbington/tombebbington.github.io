@@ -28,7 +28,7 @@
 
           <nav>
             {% for category in site.categories %}
-            <a {{% if page.category==category %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/{{ category | first }}">{{ category | first | replace:'-',' ' | capitalize }}</a>
+            <a {{% if page.category == category %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/{{ category | first }}">{{ category | first | replace:'-',' ' | capitalize }}</a>
             {% endfor %}
           </nav>
         </header>
