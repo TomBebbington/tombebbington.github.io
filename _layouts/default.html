@@ -28,7 +28,7 @@
 
           <nav>
             {% for category in site.categories %}
-              <a href="{{ site.baseurl }}/categories/{{ category | first }}">{{ category | first | replace:'-',' ' | capitalize }}</a>
+            <a tag = "{{ category | first }}" href="{{ site.baseurl }}/categories/{{ category | first }}">{{ category | first | replace:'-',' ' | capitalize }}</a>
             {% endfor %}
           </nav>
         </header>
