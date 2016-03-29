@@ -27,9 +27,11 @@
           </div>
 
           <nav>
-            {% for category in site.categories %}
-            <a {{% if page.category == category %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/{{ category | first }}">{{ category | first | replace:'-',' ' | capitalize }}</a>
-            {% endfor %}
+            <a {{% if page.category == "computing" %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/computing">Computer Science</a>
+            <a {{% if page.category == "maths" %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/maths">Maths</a>
+            <a {{% if page.category == "further-maths" %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/further-maths">Further Maths</a>
+            <a {{% if page.category == "physics" %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/physics">Physics</a>
+            <a {{% if page.category == "category" %}} id="selected" {{% endif %}} href="{{ site.baseurl }}/categories/maths">Maths</a>
           </nav>
         </header>
       </div>
