@@ -2,11 +2,12 @@
 published: true
 code: 2
 title: Complex Numbers
-category: further-maths
+category: "further-maths"
 tags: FP1
 layout: post
-summary: Complex numbers let numbers we couldn't even visualise be represented easily and manipulated like any other binomial.
+summary: "Complex numbers let numbers we couldn't even visualise be represented easily and manipulated like any other binomial."
 ---
+
 
 # Imaginary numbers
 
@@ -26,8 +27,8 @@ To solve this, you just work out the square root of 16 (4) and make it a coeffic
 
 In this equation:
 
-* The **real part** is the part without an \`i\` coefficient.
-* The **imaginary part** is the part with an \`i\` coefficient.
+* The **real part** is the part without an \`i\` coefficient: `x`.
+* The **imaginary part** is the part with an \`i\` coefficient: `y`.
 
 ## Handy Expressions
 
