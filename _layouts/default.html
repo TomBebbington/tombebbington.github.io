@@ -27,24 +27,24 @@
           </div>
 
           <nav>
-            {{% if page.category == "computing" %}}
+            {{% if page.categories[0] == "computing" %}}
             	<a id="selected" href="{{ site.baseurl }}/categories/computing">Computer Science</a>
             {{% else %}}
             	<a href="{{ site.baseurl }}/categories/computing">Computer Science</a>
             {{% endif %}}
-            {{% if page.category == "maths" %}}
+            {{% if page.categories[0] == "maths" %}}
             	<a id="selected" href="{{ site.baseurl }}/categories/maths">Maths</a>
             {{% else %}}
             	<a href="{{ site.baseurl }}/categories/maths">Maths</a>
             {{% endif %}}
-            {{% if page.category == "further-maths" %}}
+            {{% if page.categories[0] == "further-maths" %}}
             	<a id="selected" href="{{ site.baseurl }}/categories/further-maths">Further Maths</a>
             {{% else %}}
             	<a href="{{ site.baseurl }}/categories/further-maths">Further Maths</a>
             {{% endif %}}
             
             
-            {{% if page.category == "physics" %}}
+            {{% if page.categories[0] == "physics" %}}
             	<a id="selected" href="{{ site.baseurl }}/categories/physics">Physics</a>
             {{% else %}}
             	<a href="{{ site.baseurl }}/categories/physics">Physics</a>
