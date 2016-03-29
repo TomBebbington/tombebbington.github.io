@@ -8,6 +8,7 @@ tags: CS3.1
 summary: The basics of programming.
 ---
 
+
 # Data types
 A **data type** is what variables' types are classed as:
 
@@ -88,37 +89,82 @@ class Person {
 # Programming concepts
 The following kinds of statements can be used in Java:
 
-  * a **variable declaration** is for when you want to give a name to a value or change the value easily. i.e.:
+## Variable declarations
+A **variable declaration** is for when you want to give a name to a value that you want a whole block of code to be able to read and set.
 
 ```java
 int howMany = 3;
+...
+System.out.println(howMany); // "3" is output
+...
+howMany = 4;
+System.out.println(howMany); // "4" is output
 ```
 
-  * a **constant declaration** is for when you want to give a name to a value that won't (and can't) be changed throughout the program.
+## Constant declarations
+A **constant declaration** is for when you want to give a name to a value that won't (and can't) be changed throughout the program.
 
 ```java
 static final int DUCKS = 200;
+...
+System.out.println(DUCKS); // "200" is output
 ```
 
-  * an **assignment** is for when you want to set a variable or field to a value.
+## Assignment
+An **assignment** is for when you want to set a variable or field to a value.
 
 ```java
 howMany = 4;
 ```
+## Iteration
+**Iteration** is the constant repetition of certain parts of a program. There are two kinds:
 
-  * **iteration** is the constant repetition of certain parts of a program . If it is **definite iteration**, then it will be ran a set number of times. If it is **indefinite iteration** then it is ran until a certain condition is met. This is typically done with the `for` loop, as it is included in most languages. In Java:
+### Definite iteration
+This is where a block is ran a fixed number of times - in Java we use the `for` loop for this:
 
 ```java
-for(int i = 0; i < 20; i++)
+for(int i = 0; i < 20; i++) // 0, 1, 2, ..., 18. 19
     System.out.println(i);
 ```
 
-Or, alternatively:
+### Indefinite iteration
+This, conversely, is where a block is ran an unknown number of times - in Java we use the `while` loop for this:
+
 ```java
-IntStream.range(0, 20).forEach(System.out:println);
+Scanner scanner = new Scanner(System.in);
+while(scanner.hasNext())
+	System.out.println(scanner.next());
 ```
 
-  * a **selection** is used when you want to run different parts of code when a certain value is different values. In Java, we use `switch` statements or `if` statements depending on if it is either an integer or enum, or not.
+We can exit from inside the while loop using the **break** statement:
+
+```java
+String word;
+Scanner scanner = new Scanner(System.in);
+while(scanner.hasNext()) {
+    word = scanner.next();
+	System.out.println(word);
+    if(word.equals("quit"))
+    	break;
+}
+```
+And we can also skip an iteration by using the **continue** statement:
+
+```java
+String word;
+Scanner scanner = new Scanner(System.in);
+while(scanner.hasNext()) {
+    word = scanner.next();
+    if(word.equals("skip"))
+    	continue;
+	System.out.println(word);
+    if(word.equals("quit"))
+    	break;
+}
+```
+
+## Selectoins
+A **selection** is used when you want to run different parts of code when a certain value is different values. In Java, we use `switch` statements or `if` statements depending on if it is either an integer or enum, or not.
 
 ```java
 int value = 3;
@@ -138,20 +184,12 @@ else if(other < 3.4f)
 else
   return "Too berg!";
 ```
-
-  * a **subroutine** is a bit of code with a purpose that returns a specific data type. In Java, we use methods for this purpose:
+## Subroutines
+A **subroutine** is a bit of code with a purpose that returns a specific data type. In Java, we use methods for this purpose:
 
 ```java
 public static int add(int a, int b) {
     return a + b;
-}
-```
-
-While in Rust, we use functions:
-
-```rust
-fn add(a: i32, b: i32) -> i32 {
-  a + b
 }
 ```
 
@@ -451,7 +489,7 @@ static String blindMode(String attempt1, String attempt2, String thing) {
 }
 ...
 blindMode("bird", "plane", "Superman"); // "Is it a bird? Is it a plane? No, it's Superman!"
-blindMode("zombie", "mummy", "your reflection"); // "Is it a zombie? Is it a monster? No, it's Superman!"
+blindMode("zombie", "mummy", "your reflection"); // "Is it a zombie? Is it a monster? No, it's your reflection!"
 ```
 
 In Python, we similarly use the same syntax as with variables:
