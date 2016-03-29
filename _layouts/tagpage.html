@@ -1,6 +1,14 @@
 ---
 layout: default
+published: true
 ---
+
+<style>
+  #{{ page.category }} {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+</style>
 {% assign data = site.data.sections | where:"code", page.tag %}
 <h1>{{ data[0].subject }}</h1>
 <h2>{{ data[0].name }}</h2>
