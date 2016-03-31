@@ -49,3 +49,11 @@
 - code: CS3.9
   name: Fundamentals of communication and networking
   subject: Computing
+
+- code: PHYA1
+  name: Particles, Quantum Phenomena and Electricity
+  subject: Physics
+
+- code: PHYA2
+  name: Mechanics, Materials and Waves
+  subject: Physics
