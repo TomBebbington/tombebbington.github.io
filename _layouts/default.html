@@ -27,28 +27,9 @@
           </div>
 
           <nav>
-            {{% if page.categories[0] == "computing" %}}
-            	<a id="selected" href="{{ site.baseurl }}/categories/computing">Computer Science</a>
-            {{% else %}}
-            	<a href="{{ site.baseurl }}/categories/computing">Computer Science</a>
-            {{% endif %}}
-            {{% if page.categories[0] == "maths" %}}
-            	<a id="selected" href="{{ site.baseurl }}/categories/maths">Maths</a>
-            {{% else %}}
-            	<a href="{{ site.baseurl }}/categories/maths">Maths</a>
-            {{% endif %}}
-            {{% if page.categories[0] == "further-maths" %}}
-            	<a id="selected" href="{{ site.baseurl }}/categories/further-maths">Further Maths</a>
-            {{% else %}}
-            	<a href="{{ site.baseurl }}/categories/further-maths">Further Maths</a>
-            {{% endif %}}
-            
-            
-            {{% if page.categories[0] == "physics" %}}
-            	<a id="selected" href="{{ site.baseurl }}/categories/physics">Physics</a>
-            {{% else %}}
-            	<a href="{{ site.baseurl }}/categories/physics">Physics</a>
-            {{% endif %}}
+            {% for category in site.categories %}
+              <a href="{{ site.baseurl }}/categories/{{ category | first }}"> {{ category | first | replace:'-',' ' | capitalize }} </a>
+            {% endfor %}
           </nav>
         </header>
       </div>
