@@ -17,9 +17,9 @@ Atoms, as you should know from GCSE, consist of:
 
 | Constituent | Location | Weight / kg | Relative charge (in terms of \`-e\`) |Charge (C)|
 |:------------|:---------|:------------|:-------------------------------------|:---------|
-| Proton      | Nucleus | \`1.67 \times 10^-27 kg\` |  1  | \`+1.60 \times 10^-19\`
-| Neutron     | Nucleus | \`1.67 \times 10^-27 kg\` |  0  | \`+0\`
-| Electron    | Electron shells | \`9.11 \times 10^-31 kg\` |  -1  | \`-1.60 \times 10^-19 C\`
+| Proton      | Nucleus | \`1.67 \times 10^-27 kg\` |  \`1\`  | \`+1.60 \times 10^-19\`
+| Neutron     | Nucleus | \`1.67 \times 10^-27 kg\` |  \`0\`  | \`+0\`
+| Electron    | Electron shells | \`9.11 \times 10^-31 kg\` |  \`-1\`  | \`-1.60 \times 10^-19 C\`
 
 # Isotopes
 **Isotopes** are atoms with the same number of protons but differing number of neutrons, therefore of the same element. The notation used consists of:
