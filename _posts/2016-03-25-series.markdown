@@ -21,7 +21,7 @@ You can then use these equations to break down bits of a summation overr a serie
 
 # Example
 
-$$ \sum{n=1}{20} 2n + 5 $$
+$$ \sum_{n=1}^{20} 2n + 5 $$
 
 First, we break it down into summations for which we know the formulas:
 
