@@ -16,7 +16,7 @@ For every single kind of subatomic particle, there is an **antiparticle** with t
 + Annihilates it and the particle when they meet, and convert their masses into photons.
 
 ## Fundamental antiparticles
-+ **Positrons** (\(_{-1}^0\beta\)) are the antiparticle to **electrons**, as they have opposite charge (\`-e\`) and equal rest mass.
++ **Positrons** (\(\_{-1}^0\beta\)) are the antiparticle to **electrons**, as they have opposite charge (\`-e\`) and equal rest mass.
 + **Antiprotons** (\(\overline{p}\)) are the antiparticle to **protons**, as they have opposite charge (\`-e\` but equal rest mass.
 + **Antineutrons** (\(\overline{n}\)) are the antiparticle to **neutrons**, as they have opposite charge (still \`0\`) but equal rest mass.
 + **Antineutrinos** (\(\overline{v}\)) are the antiparticle to **neutrinos**, as they have opposite charge (still \`0\`) but equal rest mass.
