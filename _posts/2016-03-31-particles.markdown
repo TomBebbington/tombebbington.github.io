@@ -1,12 +1,13 @@
 ---
 published: true
 layout: post
-code: 1.1
+code: 1.1.1
 title: Constituents of the atom
 tags: PHYA1
 category: physics
-summary: What atoms are made of, and the properties of these particles.
+summary: "What atoms are made of, and the properties of these particles."
 ---
+
 
 Atoms, as you should know from GCSE, consist of:
 
