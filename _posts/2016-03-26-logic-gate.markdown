@@ -7,7 +7,7 @@ tags: CS3.6
 category: computing
 summary: Logic gates are used in logic circuit diagram to do operations on bits.
 ---
-The following logic gates are available for computer circuits:
+The following logic gates are available in computer circuits:
 
 # The NOT gate
 The **NOT gate** inverts the signal passed through it.

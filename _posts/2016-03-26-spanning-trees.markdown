@@ -13,18 +13,18 @@ summary: Spanning tree problems involve connecting vertices so there is a path b
 
 In **Kruskal's**, the lowest edge in the whole network is added each time.
 
-To find a minimum spanning tree for a network with \`n\` vertices:
+To find a minimum spanning tree for a network with $ n $ vertices:
 
 1. Find the unused edge of the lowest value.
 2. Add this edge into your tree.
-3. If there are \`n - 1\` edges in your tree, stop. If not, go back to Step 1.
+3. If there are $ n - 1 $ edges in your tree, stop. If not, go back to Step 1.
 
 # Prim's algorithm
 
 In **Prim's**, the lowest edge connected to the tree is added each time.
 
-To find a minimum spanning tree for a network with \`n\` vertices:
+To find a minimum spanning tree for a network with $ n $ vertices:
 
 1. From a start vertex, add the connected edge of the lowest value to start your tree. This will *always* be given in an exam question.
 2. From any vertex contained in your tree, add the edge of the lowest value.
-3. If there are \`n - 1\` edges in your tree, stop. If not, go back to Step 2.
+3. If there are $ n - 1 $ edges in your tree, stop. If not, go back to Step 2.

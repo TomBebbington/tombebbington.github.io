@@ -19,7 +19,7 @@ We use **matchings** when we want to allocate each of something to a single of s
 # Formatting your answer
 1. Write down the initial matching, as just each left vertex and the right vertex it is connected to.
 2. Write down the matching as you run the algorithm, using the notation:
-    - A dash '\`-\`' between edges you have **joined**.
+    - A dash '$ - $' between edges you have **joined**.
     - A crossed-out dash '/-' between edged you have **disconnected**.
 3. Write down the final matching, as just each left vertex and the right vertex it is connected to.
 

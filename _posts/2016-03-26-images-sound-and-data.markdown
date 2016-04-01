@@ -39,13 +39,14 @@ To convert analogue sound waves to digital ones the sound waves are recorded at 
 
 **Bitmaps** are images stored in memory where there are a set number of pixels making up the image. The **dimensions** of the image are given in the form `width x height`, and the **colour depth** is the number of bits per pixel. The **resolution** of an image is the number of pixels per inch, where 72PPI is the standard and 300PPI is required to print with photographic quality. Generally, storage requirements can be expressed as width x height x colour depth. The majority of image formats have 3 bytes or 4 bytes per pixel, depending on if it has an alpha channel. Most of these use RGB to represent colours where how much red / green / blue makes up a colour is represented by integers. The size of a bitmap can ve calculated by:
 
-\`width \times height \times colour_depth\`
+$$ width \times height \times colour_depth $$
 
 ## Metadata
 
 The metadata of a bitmap contains:
 
-  * A **header** to confirm it is an image of a certain format. + Its **width** in pixels. 
+  * A **header** to confirm it is an image of a certain format.
+  * Its **width** in pixels. 
   * Its **height** in pixels. 
   * The **image resolution** in PPI. 
   * The **colour depth** (usually 3-byte or 4-byte).
@@ -69,12 +70,13 @@ The **sample resolution** of audio, also known as the **bit depth**, is the numb
 
 The **sampling rate** is the number of samples of sound made per second, in hertz. The higher this is, the smoother the representation. To calculate the size of an audio file, use this, where T is the total size, s is the sample resolution, r is the sampling rate and t is the number of seconds:
 
-\`T = s \times r \times t\`
+$$ T = s \times r \times t $$
+
 ## Nyquist theorem
 
 Harry Nyquist discovered in 1928, that in order to produce an accurate recording, the sampling rate must be at lest double the highest frequency is the sample. Basically, where `s` is sampling rate and `f` is frequency, the minimum sampling rate to :
 
-\`s = 2 \times f\`
+$$ s = 2 \times f $$
 
 # Musical Instrument Digital Interface
 

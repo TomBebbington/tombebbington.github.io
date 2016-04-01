@@ -10,9 +10,9 @@ summary: Binary can be added, subtracted, multiplied and divided just like regul
 
 # Signed / Unsigned
 
-**Signed binary** is binary that can be positive or negative, so it can be two's complement for a negative number or anything else for a positive number. The values of these fall in the range  \`-2 ^ {n - 1} \leq x \leq 2 ^ {n - 1}\` where \`n\` is the number of bits.
+**Signed binary** is binary that can be positive or negative, so it can be two's complement for a negative number or anything else for a positive number. The values of these fall in the range  $ -2 ^ {n - 1} \leq x \leq 2 ^ {n - 1} $ where $ n $ is the number of bits.
 
-**Unsigned binary** is binary that can only be positive, so it has double the range of signed binary. The values of these fall in the range \`0 \leq x \leq 2 ^ n - 1\` where \`n\` is the number of bits.
+**Unsigned binary** is binary that can only be positive, so it has double the range of signed binary. The values of these fall in the range $ 0 \leq x \leq 2 ^ n - 1 $ where $ n $ is the number of bits.
 
 # Negation
 
@@ -70,8 +70,8 @@ Subtraction is just addition of the negative of the second number. For example:
 
 Shifting is simply moving the bits a certain amount to the left or right. Note that:
 
-* Shifting an integer left by \`n\` is the same as multiplying it by \`2 ^ n\`.
-* Shifting an integer right by \`n\` is the same as dividing by \`2 ^ n\`.
+* Shifting an integer left by $ n $ is the same as multiplying it by $ 2 ^ n $.
+* Shifting an integer right by $ n $ is the same as dividing by $ 2 ^ n $.
 
 For example:
     

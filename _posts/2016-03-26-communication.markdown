@@ -52,11 +52,11 @@ Data can be sent through electrical wires in either  **serial** or **parallel**.
 
 **Bit rate** is bits per second in a serial connection. This is proportional to bandwidth, and can be calculated using:
 
-\`bit rate = baud rate * number of bits per signal\`
+$$ bit rate = baud rate * number of bits per signal $$
 
 **Baud rate** is the rate at which data can be transmitted, where one baud is one electronic state change per second. If only 2 different values are transmitted, the baud and bit rate will be the same. This can be calculated with the following:
 
-\`baud rate = bit rate / number of bits per signal\`
+$$ baud rate = bit rate / number of bits per signal $$
 
 **Latency** is the delay between when something is initiated (usually some kind of event) and when its effects are first felt - basically, the equivalent of reflex time for computers. In regards to data communications, latency is the time delay between when a signal is sent and when it is received. Fibre-optics provide a lower latency compared to copper cable.
 
