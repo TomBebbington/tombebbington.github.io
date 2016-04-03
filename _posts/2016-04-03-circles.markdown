@@ -1,0 +1,23 @@
+---
+published: true
+code: 0.2
+title: Quadratic equations
+category: maths
+tags: C1
+layout: post
+summary: Quadratic equations let us have two solutions to equations.
+---
+
+**Circles** are a kind of curve that have a centre about which every single point is a certain distance (known as the radius) away from this centre. The equation of a circle with radius $r$ and centre $(a, b)$ is another form of Pythagoras' theorem:
+
+$$ (x - a)^2 + (y - b) ^2 = r^2 $$
+
+# Area
+The area $A$ of a circle with radius $r$ can be calculated by:
+
+$$ A = \pi r^2 $$
+
+# Perimeter
+The **perimeter** $P$ of a circle is known as its **circumference**, and its equation is:
+
+$$ P = 2\pi r$$

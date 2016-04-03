@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: Differentiation
+code: 0.3
 tags: C1
 category: maths
 summary: How to do differentiation

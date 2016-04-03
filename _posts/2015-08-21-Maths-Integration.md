@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: Integration
+code: 0.4
 tags: C1
 category: maths
 summary: Integration is finding the equation of a curve from its gradient.
