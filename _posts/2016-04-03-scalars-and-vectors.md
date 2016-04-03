@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 code: 1.1
 tags: PHYA2
