@@ -1,11 +1,12 @@
 ---
-published: false
+published: true
 layout: post
 code: 1.1.4
 tags: PHYA1
 category: physics
 summary: How particles interactions are exchanged.
 ---
+
 
 # Exchange particles
 Every single force must be exchanged by particles called **exchange particles**.
