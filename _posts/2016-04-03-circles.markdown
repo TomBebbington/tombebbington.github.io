@@ -1,11 +1,11 @@
 ---
 published: true
 code: 0.2
-title: Quadratic equations
+title: Circles
 category: maths
 tags: C1
 layout: post
-summary: Quadratic equations let us have two solutions to equations.
+summary: Properties of circles, their equation, and how to calculate area and perimeter.
 ---
 
 **Circles** are a kind of curve that have a centre about which every single point is a certain distance (known as the radius) away from this centre. The equation of a circle with radius $r$ and centre $(a, b)$ is another form of Pythagoras' theorem:
