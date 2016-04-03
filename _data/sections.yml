@@ -1,3 +1,11 @@
+- code: C1
+  name: Core 1
+  subject: Maths
+
+- code: C2
+  name: Core 2
+  subject: Maths
+
 - code: FP1
   name: Further Pure 1
   subject: Further Maths
