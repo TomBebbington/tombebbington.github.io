@@ -116,6 +116,7 @@ An **assignment** is for when you want to set a variable or field to a value.
 ```java
 howMany = 4;
 ```
+
 ## Iteration
 **Iteration** is the constant repetition of certain parts of a program. There are two kinds:
 
@@ -163,7 +164,7 @@ while(scanner.hasNext()) {
 }
 ```
 
-## Selectoins
+## Selection
 A **selection** is used when you want to run different parts of code when a certain value is different values. In Java, we use `switch` statements or `if` statements depending on if it is either an integer or enum, or not.
 
 ```java
@@ -184,6 +185,7 @@ else if(other < 3.4f)
 else
   return "Too berg!";
 ```
+
 ## Subroutines
 A **subroutine** is a bit of code with a purpose that returns a specific data type. In Java, we use methods for this purpose:
 
@@ -355,6 +357,7 @@ text.substring(0, 5); // "Hello"
 ```java
 text + " Hereeee's Johhny" // "Hello, world! Hereeee's Johhny"
 ```
+
 or:
 
 ```java
@@ -364,7 +367,7 @@ builder.append(" Hereeee's Johhny");
 builder.toString(); // "Hello, world! Hereeee's Johhny"
 ```
 
-* The character at a certain offset of a string can be found by:
+* The character at a certain offset of a string can be found by using the `charAt` method. For example, to get the 4th character (at the 5th index in Java):
 
 ```java
 text.charAt(5); // ' '
