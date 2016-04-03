@@ -20,9 +20,9 @@ When an object is moving in a straight line (usually straight down), several equ
 
 ## Uniform velocity
 
-$$ v = \frac{\delta s}{\delta t} $$
+$$ v = \frac{\Delta s}{\Delta t} $$
 
-$$ a = \frac{\delta v}{\delta t} $$
+$$ a = \frac{\Delta v}{\Delta t} $$
 
 ## Uniform acceleration
 
