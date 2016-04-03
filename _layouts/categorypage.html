@@ -1,6 +1,8 @@
 ---
 layout: default
+published: true
 ---
+
 
 <h1>{{ page.category | replace:'-',' ' | capitalize }}</h1>
 {% if page.spec %}
@@ -16,7 +18,7 @@ layout: default
 	  {% endfor %}
 	{% endcapture %}
 	{% assign sortedposts = posts | split: '|' | sort: 'code' %}
-	{% for post in sortedposts %}
+	{% for post in sortedposts reversed %}
 	    {% assign postitems = post | split: '#' %}
 	    <div class = "post-preview">
 	    	<h3><a href="{{ postitems[1] }}">{{ postitems[0] }}</a></h3>
