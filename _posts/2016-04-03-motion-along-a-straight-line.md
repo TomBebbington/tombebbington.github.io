@@ -14,17 +14,15 @@ title: Motion along a straight line
 
 **Velocity** ($v$) is the change of displacement per unit of time, and is usually measured in $ ms^-1 $.
 
-# Motion along a straight line:
-
 When an object is moving in a straight line (usually straight down), several equations can be applied to it depending on what is constant throughout the movement: the acceleration or the velocity.
 
-## Uniform velocity
+# Uniform velocity
 
 $$ v = \frac{\Delta s}{\Delta t} $$
 
 $$ a = \frac{\Delta v}{\Delta t} $$
 
-## Uniform acceleration
+# Uniform acceleration
 
 Note that the value of acceleration for gravity is $g$.
 
