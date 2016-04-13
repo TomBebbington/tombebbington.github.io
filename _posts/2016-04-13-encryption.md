@@ -1,5 +1,6 @@
 ---
-published: false
+published: true
+category: computing
 ---
 
 **Encryption** is scrambling data so others cannot view it unless they know what method you used to encrypt it and what key you used.
