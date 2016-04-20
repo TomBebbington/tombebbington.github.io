@@ -22,3 +22,5 @@ summary: Devices that can connect to a computer.
 6. The paper is rolled out.
 
 # RFID
+
+This is more commonly known as a security tag
