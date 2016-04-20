@@ -12,13 +12,13 @@ summary: Devices that can connect to a computer.
 
 # Digital camera
 
+# Laser printer
+
 1. The computer sends data to the printer about the document it's printing.
 2. An electronic circuit handles figuring out how this document should be drawn.
 3. A laser beam scans back and forth inside the printer, building up a pattern with static electricity.
 4. The positively charged toner (powdered ink) is attracted on the page by the static electricity.
 5. A fuser unit (two heat rollers) bonds the toner to the paper.
 6. The paper is rolled out.
-
-# Laser printer
 
 # RFID
