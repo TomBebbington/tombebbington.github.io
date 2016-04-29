@@ -8,11 +8,15 @@ category: computing
 summary: Boolean algebra lets us express operations on true / false numbers with a mathemetical syntax.
 ---
 
-Boolean algebra is a way of expressing operations on `true` / `false` numbers with a mathematical syntax. It can be simplified just like any other kind of mathematics, and this simplifies the underlying circuit, thus reducing how many components the circuit requires. This causes the ciruit to be:
+Boolean algebra is a way of expressing operations on `true` / `false` booleans with a mathematical syntax. It can be simplified just like any other kind of mathematics, and this simplifies the underlying circuit, thus reducing how many components the circuit requires. This causes the ciruit to be:
 
 + Cheaper
 + More efficient
 + With less gates: more reliable.
+
+# Truth tables
+
+**Truth tables** are tables used to model each possible value of a boolean expression to calculate its possible values.
 
 # Operations
 
