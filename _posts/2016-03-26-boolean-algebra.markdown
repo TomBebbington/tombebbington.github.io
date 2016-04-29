@@ -133,6 +133,7 @@ $$ \overline{\overline{A}} = A $$
 This states that in an **OR** operation, the second value is redundant if it is **AND**ed into the first value:
 
 $$ A + A \cdot B = A $$
+
 $$ A \cdot (A + B) = A $$
 
 ## De Morgan's laws
