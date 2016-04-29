@@ -8,7 +8,17 @@ category: computing
 summary: Boolean algebra lets us express operations on true / false numbers with a mathemetical syntax.
 ---
 
-Boolean algebra is a way of expressing operations on true / false numbers with a mathematical syntax. The following are the laws of Boolean algebra:
+Boolean algebra is a way of expressing operations on `true` / `false` numbers with a mathematical syntax. The following are the laws of Boolean algebra:
+
+# Operations
+
+## OR
+
+$$ A + B $$
+
+
+
+# Laws
 
 ## The Commutative law
 
