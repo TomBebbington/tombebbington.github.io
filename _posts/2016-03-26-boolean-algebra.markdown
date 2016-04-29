@@ -10,11 +10,11 @@ summary: Boolean algebra lets us express operations on true / false numbers with
 
 Boolean algebra is a way of expressing operations on `true` / `false` numbers with a mathematical syntax. The following are the laws of Boolean algebra:
 
-Boolean algebra is simplified for a variety of reasons:
+Boolean algebra is simplified to simplify the underlying circuit, thus reducing how many components the circuit requires. This causes the ciruit to be:
 
-+ It simplifies the circuit we are representing.
-+ This reduces the number of components that are needed.
-+ This causes the circuit to be cheaper, more efficient and with less gates more reliable.
++ Cheaper
++ More efficient
++ With less gates: more reliable.
 
 # Operations
 
