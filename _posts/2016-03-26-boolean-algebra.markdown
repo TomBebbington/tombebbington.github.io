@@ -106,7 +106,7 @@ $$ A \cdot A = A $$
 
 $$ A \cdot \overline{A} = 0 $$
 
-## Absorption
+## The Absorption Law
 
 $$ A + (A \cdot B) = A $$
 
