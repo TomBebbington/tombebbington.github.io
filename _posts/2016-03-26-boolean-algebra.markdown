@@ -76,7 +76,7 @@ $$ \overline{A . B} $$
 
 ## XOR
 
-$$ A \XOR B $$
+$$ A \oplus B $$
 
 | A | B | A XOR B |
 |---|---|-------|
