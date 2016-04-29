@@ -106,6 +106,12 @@ $$ A \cdot A = A $$
 
 $$ A \cdot \overline{A} = 0 $$
 
+## Absorption
+
+$$ A + (A \cdot B) = A $$
+
+$$ A \cdot (A + B) = A $$
+
 ## The Null Law
 
 $$ A + 1 = 1 $$
