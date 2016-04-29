@@ -93,11 +93,17 @@ $$ A \oplus B $$
 These are self-explanatory key laws.
 
 $$ A + 0 = A $$
+
 $$ A + A = A $$
+
 $$ A + \overline{A} = 1 $$
+
 $$ A \cdot 0 = 0 $$
+
 $$ A \cdot 1 = 1 $$
+
 $$ A \cdot A = A $$
+
 $$ A \cdot \overline{A} = 0 $$
 
 ## The Null Law
