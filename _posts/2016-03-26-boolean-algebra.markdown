@@ -147,4 +147,5 @@ $$ A \cdot (A + B) = A $$
 These state that in **AND** / **OR** expressions that are all negative, you can 'break the bar' by splitting it and changing the operation to **OR** / **AND**:
 
 $$\overline{A \cdot B} = \overline{A} + \overline{B}$$
+
 $$\overline{A + B} = \overline{A} \cdot \overline{B}$$
