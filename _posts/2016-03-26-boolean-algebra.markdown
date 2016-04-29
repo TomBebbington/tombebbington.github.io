@@ -16,7 +16,7 @@ Boolean algebra is a way of expressing operations on `true` / `false` numbers wi
 
 $$ \overline{A} $$
 
-| $A$ | $\overline{A}$ |
+| A | NOT A |
 |---|--------------|
 | 0 | 1            |
 | 1 | 0            |
@@ -25,7 +25,7 @@ $$ \overline{A} $$
 
 $$ A + B $$
 
-| $A$ | $B$ | $ A + B $ |
+| A | B | A OR B |
 |---|---|-------|
 | 0 | 0 | 0     |
 | 0 | 1 | 1     |
@@ -36,7 +36,7 @@ $$ A + B $$
 
 $$ \overline{A + B} $$
 
-| A | B | \overline{A + B} |
+| A | B | A OR B |
 |---|---|-------|
 | 0 | 0 | 1     |
 | 0 | 1 | 0     |
@@ -47,7 +47,7 @@ $$ \overline{A + B} $$
 
 $$ A . B $$
 
-| $A$ | $B$ | $A . B$ |
+| A | B | A AND B |
 |---|---|-------|
 | 0 | 0 | 0     |
 | 0 | 1 | 0     |
@@ -58,7 +58,7 @@ $$ A . B $$
 
 $$ \overline{A . B} $$
 
-| $A$ | $B$ | $ \overline{A . B} $ |
+| A | B | A NAND B |
 |---|---|-------|
 | 0 | 0 | 1     |
 | 0 | 1 | 1     |
@@ -70,7 +70,7 @@ $$ \overline{A . B} $$
 
 $$ A \xor B $$
 
-| $A$ | $B$ | $ A \xor B $ |
+| A | B | A XOR B |
 |---|---|-------|
 | 0 | 0 | 0     |
 | 0 | 1 | 1     |
