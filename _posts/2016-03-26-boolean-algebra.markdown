@@ -80,13 +80,29 @@ $$ A \xor B $$
 
 # Laws
 
+## THe Identity law
+
+These are self-explanatory key laws.
+
+$$ A + 0 = A $$
+$$ A + A = A $$
+$$ A + \overline{A} = 1 $$
+$$ A \cdot 0 = 0 $$
+$$ A \cdot 1 = 1 $$
+$$ A \cdot A = A $$
+$$ A \cdot \overline{A} = 0 $$
+
+## The Null Law
+
+$$ A + 1 = 1 $$
+
 ## The Commutative law
 
 This states that in an **AND** or **OR** operation, the operands can be swapped without affecting the result of the operation.
 
 $$ A + B = B + A $$
 
-## The Associate law
+## The Associative law
 
 This states that the order you group operands in for **OR** and **AND** operations doesn't matter, so long as the original order is preserved:
 
