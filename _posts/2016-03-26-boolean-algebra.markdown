@@ -122,13 +122,6 @@ This states that in an **AND** operation, if one of the operands is an **OR** op
 
 $$ A \cdot (B + C) = A \cdot B + A \cdot C $$
 
-## The Identity law
-
-This states that **OR** or **AND** operations on the same number yield that number.
-
-$$ A + A = A $$
-$$ A \cdot A = A $$
-
 ## The Negation law
 
 This states that double negatives cancel out:
@@ -137,7 +130,7 @@ $$ \overline{\overline{A}} = A $$
 
 ## The Redundancy law
 
-This states that in an **OR** operation, the second value is redundant if it is **OR**ed into the first value:
+This states that in an **OR** operation, the second value is redundant if it is **AND**ed into the first value:
 
 $$ A + A \cdot B = A $$
 $$ A \cdot (A + B) = A $$
