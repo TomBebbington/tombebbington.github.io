@@ -5,7 +5,7 @@ title: Communication
 layout: post
 category: computing
 tags: CS3.9
-summary: Computers communicate in many different ways, and there are a lot of factors that contribute to this.
+summary: "Computers communicate in many different ways, and there are a lot of factors that contribute to this."
 ---
 
 # Communication methods
@@ -62,11 +62,11 @@ $$ baud rate = bit rate / number of bits per signal $$
 
 A **protocol** is a set of standardised signals, codes and rules used for data exchange between computers. These are combined when communication is taking place. There are many protocols used commonly:
 
-  * TCP / IP (typical socket protocol)
-  * HTTP (hypertext transfer protocol)
-  * FTP (file transfer protocol)
-  * HTTPS (hyper-text transfer protocol securererer edition with encryption between client and server)
-  * Bit-torrent (for peer-to-peer file transfer)
+  * **TCP** / **IP** (typical socket protocol)
+  * **HTTP** (hypertext transfer protocol)
+  * **FTP** (file transfer protocol)
+  * **HTTPS** (hyper-text transfer protocol securererer edition with encryption between client and server)
+  * **Bit-torrent** (for peer-to-peer file transfer)
 
 Protocols handle the following:
 
