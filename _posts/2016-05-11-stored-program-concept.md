@@ -66,6 +66,8 @@ The **SR** tracks the status of different parts of the computer.
 The **MBR** holds data that is about to be written or has been read from memory.
 ### Memory Address Register
 The **MAR** stores the memory location that the **MBR** data is about to be written to or read from.
+### Accumulator
+This is used by the **AU** for repeated use of a single value in arithmetic and logic operations.
 
 # Architectures
 
