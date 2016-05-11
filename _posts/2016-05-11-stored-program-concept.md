@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "Stored Program Concept & the Fetch-Execute Cycle"
 category: computing
 ---
