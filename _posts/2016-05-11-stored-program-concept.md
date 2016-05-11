@@ -9,6 +9,18 @@ category: computing
 2. Decode: the processor decodes the opcode and operands from the instruction.
 3. Execute: the processor runs the instruction.
 
+## Fetch
+The value at PC is the address of the next instruction.
+
+1. This is sent through the address bus to main memory.
+2. The contents of the memory location at the address are sent through the data bus to the CIR.
+3. The value at PC is incremented.
+4. Address details are loaded into the MAR then later go to the MBR.
+
+## Decode
+
+## Execute
+
 # CPU Components
 
 ## Units
