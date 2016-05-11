@@ -9,17 +9,24 @@ category: computing
 2. Decode: the processor decodes the opcode and operands from the instruction.
 3. Execute: the processor runs the instruction.
 
-## Fetch
-The value at PC is the address of the next instruction.
+```
+MAR <- [PC]
+PC  <- [PC] + 1
+MBR <- Memory contents
+CIR <- [MBR]
+```
 
-1. This is sent through the address bus to main memory.
-2. The contents of the memory location at the address are sent through the data bus to the CIR.
-3. The value at **PC** is incremented.
-4. Address details are loaded into the **MAR** then later copied to the **MBR**.
+## Fetch
+1. The value at program counter is stored into the **MAR**.
+2. The value at the program counter is incremented by 1.
+3. Simultaneously, the address contents of main memory is transferred to the **MBR**.
+4. The contents of the **MBR** are transferred to the **CIR**.
 
 ## Decode
+The instruction in the **CIR** is decoded into:
 
-The processor reads the instruction held in the **CIR** and decides how to handle it from the instruction set.
++ The **opcode**, which indicates which kind of instruction it is.
++ The **operands**, which are values that are passed to the instruction.
 
 ## Execute
 
