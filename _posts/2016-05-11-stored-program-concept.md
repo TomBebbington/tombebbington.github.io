@@ -41,7 +41,7 @@ This acts as the supervisor of the **Fetch-Execute Cycle**, and ensures that dat
 
 ## Registers
 
-**Registers** are small areas to store and sort data on the CPU no matter the architecture.
+**Registers** are small areas to store and sort data on the CPU that are usually 32 or 64-bit.
 
 ## Program Counter
 This counts which instructions have been executed and which is next - this information is passed to the **Control Unit**.
