@@ -14,15 +14,16 @@ The value at PC is the address of the next instruction.
 
 1. This is sent through the address bus to main memory.
 2. The contents of the memory location at the address are sent through the data bus to the CIR.
-3. The value at PC is incremented.
-4. Address details are loaded into the MAR then later go to the MBR.
+3. The value at **PC** is incremented.
+4. Address details are loaded into the **MAR** then later copied to the **MBR**.
 
 ## Decode
 
-1. The processor reads the instruction held in the CIR and decides how to handle it from the instruction set.
-2. The processor handles it.
+The processor reads the instruction held in the **CIR** and decides how to handle it from the instruction set.
 
 ## Execute
+
+The processor handles the instruction using its instruction set to decide what each instruction does.
 
 # CPU Components
 
