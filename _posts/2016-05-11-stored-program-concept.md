@@ -31,9 +31,10 @@ The value at PC is the address of the next instruction.
 ## The Arithmetic Logic Unit
 
 This handles mathematical and logical operations such as:
+
 + Addition
 + Subtraction
-+ Comparisons
++ Comparisons (less / greater than / or equal to)
 
 ## The Control Unit
 
