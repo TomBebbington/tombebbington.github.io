@@ -19,6 +19,9 @@ The value at PC is the address of the next instruction.
 
 ## Decode
 
+1. The processor reads the instruction held in the CIR and decides how to handle it from the instruction set.
+2. The processor handles it.
+
 ## Execute
 
 # CPU Components
@@ -40,11 +43,17 @@ This acts as the supervisor of the **Fetch-Execute Cycle**, and ensures that dat
 
 **Registers** are small areas to store and sort data on the CPU no matter the architecture.
 
-## Other components
+## Program Counter
+This counts which instructions have been executed and which is next - this information is passed to the **Control Unit**.
 
-+ The **Program Counter** (PC) counts which instructions have been executed and which is next - this information is passed to the **Control Unit**.
-+ The **Cache** is a bit of really fast memory, that instructions and data are loaded into from RAM before being ran on the CPU. This a form of volatile memory.
-+ The **Bus** is a pathway between CPU components. Data and control signals travel through the bus inside th CPU to the different components.
+## Cache
+The **Cache** is a bit of really fast memory, that instructions and data are loaded into from RAM before being ran on the CPU. This a form of volatile memory.
+
+## Bus
+The **Bus** is a pathway between CPU components. Data and control signals travel through the bus inside th CPU to the different components.
+
+## Clock
+This synchronises the operations of the computer to a specific frequency, measured in *Hertz*.
 
 # Architectures
 
