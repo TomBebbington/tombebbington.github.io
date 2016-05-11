@@ -1,6 +1,7 @@
 ---
 published: false
 title: "Stored Program Concept & the Fetch-Execute Cycle"
+category: computing
 ---
 # Fetch-Execute Cycle
 
