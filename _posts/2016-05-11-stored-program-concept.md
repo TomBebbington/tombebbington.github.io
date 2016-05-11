@@ -39,6 +39,15 @@ This handles mathematical and logical operations such as:
 
 This acts as the supervisor of the **Fetch-Execute Cycle**, and ensures that data is stored into the correct locations at the correct time.
 
+## Cache
+The **Cache** is a bit of really fast memory, that instructions and data are loaded into from RAM before being ran on the CPU. This a form of volatile memory.
+
+## Bus
+The **Bus** is a pathway between CPU components. Data and control signals travel through the bus inside th CPU to the different components.
+
+## Clock
+This synchronises the operations of the computer to a specific frequency, measured in *Hertz*.
+
 ## Registers
 
 **Registers** are small areas to store and sort data on the CPU that are usually 32 or 64-bit.
@@ -55,14 +64,6 @@ The **SR** tracks the status of different parts of the computer.
 The **MBR** holds data that is about to be written or has been read from memory.
 ### Memory Address Register
 The **MAR** stores the memory location that the **MBR** data is about to be written to or read from.
-## Cache
-The **Cache** is a bit of really fast memory, that instructions and data are loaded into from RAM before being ran on the CPU. This a form of volatile memory.
-
-## Bus
-The **Bus** is a pathway between CPU components. Data and control signals travel through the bus inside th CPU to the different components.
-
-## Clock
-This synchronises the operations of the computer to a specific frequency, measured in *Hertz*.
 
 # Architectures
 
