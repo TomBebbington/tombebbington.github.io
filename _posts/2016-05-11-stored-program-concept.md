@@ -46,11 +46,11 @@ The **Cache** is a bit of really fast memory, that instructions and data are loa
 The **Bus** is a pathway between CPU components. Data and control signals travel through the bus inside th CPU to the different components.
 
 ## Clock
-This synchronises the operations of the computer to a specific frequency, measured in *Hertz*.
+This generates a signal in order to synchronise the operations of the computer to a specific frequency, measured in *Hertz*.
 
 ## Registers
 
-**Registers** are small areas to store and sort data on the CPU that are usually 32 or 64-bit.
+**Registers** are small areas of memory to store and sort data on the CPU that are usually 32 or 64-bit.
 
 ### Current Instruction Register
 The **CIR** holds the instruction that is being executed by the processor.
