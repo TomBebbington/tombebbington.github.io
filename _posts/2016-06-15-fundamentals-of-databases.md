@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 A **relational database** is a database using tables of related data that is only stored once. Instead of repeating data, numerical links are made between them so the data isn't repeated.
 
@@ -13,3 +13,5 @@ An **attribute** is a piece of information about an entity stored as a field in 
 
 **Reference integrity** is how if a primary key appears in one table it must appear in another.
 
+# Representing relationships
+Crow's feet are used to imply 'many' in this kind of diagram.
