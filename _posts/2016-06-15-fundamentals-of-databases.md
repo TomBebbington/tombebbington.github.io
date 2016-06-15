@@ -13,7 +13,11 @@ An **attribute** is a piece of information about an entity stored as a field in 
 
 **Reference integrity** is how if a primary key appears in one table it must appear in another.
 
-A normalised database will either have a one-to-one, or a one-to-many relationship.
+A normalised database will either have a one-to-one, or a one-to-many relationship. Normalising database creates 
 
 # Representing relationships
 Crow's feet are used to imply 'many' in this kind of diagram.
+
+![Many to many](http://www.teach-ict.com/as_a2_ict_new/ocr/A2_G063/331_systems_cycle/analysis_tools/miniweb/images/er_many_to_many.gif)
+![One to many](http://www.teach-ict.com/as_a2_ict_new/ocr/A2_G063/331_systems_cycle/analysis_tools/miniweb/images/er_one_to_many.gif)
+![One to one](http://www.teach-ict.com/as_a2_ict_new/ocr/A2_G063/331_systems_cycle/analysis_tools/miniweb/images/er_one_to_one.gif)
